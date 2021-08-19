@@ -4702,3 +4702,475 @@ Undefined property: stdClass::$enable_on_execution - in C:\xampp\htdocs\testlink
 [<<][611e95d8388a0246420149][DEFAULT][/testlink/lib/platforms/platformsView.php][21/Aug/19 17:33:12][21/Aug/19 17:33:12][took 0.052105 secs]
 [>>][611e95d8457e4098111724][DEFAULT][/testlink/lib/platforms/platformsView.php][21/Aug/19 17:33:12]
 [<<][611e95d8457e4098111724][DEFAULT][/testlink/lib/platforms/platformsView.php][21/Aug/19 17:33:12][21/Aug/19 17:33:12][took 0.0468 secs]
+[<<][611e983d8b68e555935871][DEFAULT][/testlink/index.php][21/Aug/19 17:43:25][21/Aug/19 17:43:25][took 0.054917 secs]
+[>>][611e983d99211835053361][DEFAULT][/testlink/index.php][21/Aug/19 17:43:25]
+[<<][611e983d99211835053361][DEFAULT][/testlink/index.php][21/Aug/19 17:43:25][21/Aug/19 17:43:25][took 0.02055 secs]
+[<<][611e983dbe7b7052623510][DEFAULT][/testlink/lib/general/navBar.php][21/Aug/19 17:43:25][21/Aug/19 17:43:25][took 0.066646 secs]
+[>>][611e983dcef10009943201][DEFAULT][/testlink/lib/general/navBar.php][21/Aug/19 17:43:25]
+[<<][611e983dcef10009943201][DEFAULT][/testlink/lib/general/navBar.php][21/Aug/19 17:43:25][21/Aug/19 17:43:25][took 0.019124 secs]
+[<<][611e983dc07bd904895046][DEFAULT][/testlink/lib/general/mainPage.php][21/Aug/19 17:43:25][21/Aug/19 17:43:25][took 0.121819 secs]
+[>>][611e983dde7b1303042797][DEFAULT][/testlink/lib/general/mainPage.php][21/Aug/19 17:43:25]
+[<<][611e983dde7b1303042797][DEFAULT][/testlink/lib/general/mainPage.php][21/Aug/19 17:43:25][21/Aug/19 17:43:25][took 0.027867 secs]
+[<<][611e98470a620779497732][DEFAULT][/testlink/index.php][21/Aug/19 17:43:35][21/Aug/19 17:43:35][took 0.050384 secs]
+[>>][611e984716e86167334258][DEFAULT][/testlink/index.php][21/Aug/19 17:43:35]
+[<<][611e984716e86167334258][DEFAULT][/testlink/index.php][21/Aug/19 17:43:35][21/Aug/19 17:43:35][took 0.017075 secs]
+[<<][611e98473381d276734808][DEFAULT][/testlink/lib/general/mainPage.php][21/Aug/19 17:43:35][21/Aug/19 17:43:35][took 0.054282 secs]
+[>>][611e984740fd7609001850][DEFAULT][/testlink/lib/general/mainPage.php][21/Aug/19 17:43:35]
+[<<][611e984740fd7609001850][DEFAULT][/testlink/lib/general/mainPage.php][21/Aug/19 17:43:35][21/Aug/19 17:43:35][took 0.025557 secs]
+[<<][611e9847340aa738846935][DEFAULT][/testlink/lib/general/navBar.php][21/Aug/19 17:43:35][21/Aug/19 17:43:35][took 0.113175 secs]
+[>>][611e98475093c228751219][DEFAULT][/testlink/lib/general/navBar.php][21/Aug/19 17:43:35]
+[<<][611e98475093c228751219][DEFAULT][/testlink/lib/general/navBar.php][21/Aug/19 17:43:35][21/Aug/19 17:43:35][took 0.023635 secs]
+	[21/Aug/19 17:43:38][WARNING][<nosession>][GUI]
+		E_WARNING
+file_put_contents(/tmp/trace.log): failed to open stream: No such file or directory - in C:\xampp\htdocs\testlink\lib\project\projectView.php - Line 24
+[<<][611e984a3efcd642164356][DEFAULT][/testlink/lib/project/projectView.php][21/Aug/19 17:43:38][21/Aug/19 17:43:38][took 0.042017 secs]
+[>>][611e984a496ce281611117][DEFAULT][/testlink/lib/project/projectView.php][21/Aug/19 17:43:38]
+	[21/Aug/19 17:43:38][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_WARNING
+file_put_contents(/tmp/trace.log): failed to open stream: No such file or directory - in C:\xampp\htdocs\testlink\lib\project\projectView.php - Line 26
+	[21/Aug/19 17:43:38][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_WARNING
+file_put_contents(/tmp/trace.log): failed to open stream: No such file or directory - in C:\xampp\htdocs\testlink\lib\project\projectView.php - Line 29
+	[21/Aug/19 17:43:38][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_WARNING
+file_put_contents(/tmp/trace.log): failed to open stream: No such file or directory - in C:\xampp\htdocs\testlink\lib\project\projectView.php - Line 44
+	[21/Aug/19 17:43:38][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_WARNING
+file_put_contents(/tmp/trace.log): failed to open stream: No such file or directory - in C:\xampp\htdocs\testlink\lib\project\projectView.php - Line 45
+	[21/Aug/19 17:43:38][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_WARNING
+file_put_contents(/tmp/trace.log): failed to open stream: No such file or directory - in C:\xampp\htdocs\testlink\lib\project\projectView.php - Line 55
+[<<][611e984a496ce281611117][DEFAULT][/testlink/lib/project/projectView.php][21/Aug/19 17:43:38][21/Aug/19 17:43:38][took 0.070464 secs]
+[<<][611e984ca421f280936007][DEFAULT][/testlink/lib/project/projectEdit.php][21/Aug/19 17:43:40][21/Aug/19 17:43:40][took 0.033712 secs]
+[>>][611e984cac91e459856042][DEFAULT][/testlink/lib/project/projectEdit.php][21/Aug/19 17:43:40]
+[<<][611e984cac91e459856042][DEFAULT][/testlink/lib/project/projectEdit.php][21/Aug/19 17:43:40][21/Aug/19 17:43:40][took 0.057375 secs]
+[<<][611e985726980278286611][DEFAULT][/testlink/lib/project/projectEdit.php][21/Aug/19 17:43:51][21/Aug/19 17:43:51][took 0.055399 secs]
+[>>][611e985734555591781201][DEFAULT][/testlink/lib/project/projectEdit.php][21/Aug/19 17:43:51]
+	[21/Aug/19 17:43:51][AUDIT][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		Test Project 'Project 2' was created
+[<<][611e985734555591781201][DEFAULT][/testlink/lib/project/projectEdit.php][21/Aug/19 17:43:51][21/Aug/19 17:43:51][took 0.06558 secs]
+[<<][611e98579ed7c689684963][DEFAULT][/testlink/lib/general/navBar.php][21/Aug/19 17:43:51][21/Aug/19 17:43:51][took 0.05488 secs]
+[>>][611e9857ac72e984157379][DEFAULT][/testlink/lib/general/navBar.php][21/Aug/19 17:43:51]
+[<<][611e9857ac72e984157379][DEFAULT][/testlink/lib/general/navBar.php][21/Aug/19 17:43:51][21/Aug/19 17:43:51][took 0.020524 secs]
+[<<][611e9859925e7208876691][DEFAULT][/testlink/lib/project/projectEdit.php][21/Aug/19 17:43:53][21/Aug/19 17:43:53][took 0.04488 secs]
+[>>][611e98599d88d109867636][DEFAULT][/testlink/lib/project/projectEdit.php][21/Aug/19 17:43:53]
+[<<][611e98599d88d109867636][DEFAULT][/testlink/lib/project/projectEdit.php][21/Aug/19 17:43:53][21/Aug/19 17:43:53][took 0.041114 secs]
+	[21/Aug/19 17:43:56][WARNING][<nosession>][GUI]
+		E_WARNING
+file_put_contents(/tmp/trace.log): failed to open stream: No such file or directory - in C:\xampp\htdocs\testlink\lib\project\projectView.php - Line 24
+[<<][611e985ce4dc5588956132][DEFAULT][/testlink/lib/project/projectView.php][21/Aug/19 17:43:56][21/Aug/19 17:43:56][took 0.047713 secs]
+[>>][611e985cf0b25117304814][DEFAULT][/testlink/lib/project/projectView.php][21/Aug/19 17:43:56]
+	[21/Aug/19 17:43:56][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_WARNING
+file_put_contents(/tmp/trace.log): failed to open stream: No such file or directory - in C:\xampp\htdocs\testlink\lib\project\projectView.php - Line 26
+	[21/Aug/19 17:43:57][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_WARNING
+file_put_contents(/tmp/trace.log): failed to open stream: No such file or directory - in C:\xampp\htdocs\testlink\lib\project\projectView.php - Line 29
+	[21/Aug/19 17:43:57][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_WARNING
+file_put_contents(/tmp/trace.log): failed to open stream: No such file or directory - in C:\xampp\htdocs\testlink\lib\project\projectView.php - Line 44
+	[21/Aug/19 17:43:57][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_WARNING
+file_put_contents(/tmp/trace.log): failed to open stream: No such file or directory - in C:\xampp\htdocs\testlink\lib\project\projectView.php - Line 45
+	[21/Aug/19 17:43:57][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_WARNING
+file_put_contents(/tmp/trace.log): failed to open stream: No such file or directory - in C:\xampp\htdocs\testlink\lib\project\projectView.php - Line 55
+[<<][611e985cf0b25117304814][DEFAULT][/testlink/lib/project/projectView.php][21/Aug/19 17:43:56][21/Aug/19 17:43:57][took 0.078241 secs]
+[<<][611e9863dc0ad966776101][DEFAULT][/lib/cfields/cfieldsTprojectAssign.php][21/Aug/19 17:44:03][21/Aug/19 17:44:03][took 0.048102 secs]
+[>>][611e9863e7f9b679404579][DEFAULT][/lib/cfields/cfieldsTprojectAssign.php][21/Aug/19 17:44:03]
+[<<][611e9863e7f9b679404579][DEFAULT][/lib/cfields/cfieldsTprojectAssign.php][21/Aug/19 17:44:03][21/Aug/19 17:44:04][took 0.209363 secs]
+	[21/Aug/19 17:44:08][WARNING][<nosession>][GUI]
+		E_WARNING
+file_put_contents(/tmp/trace.log): failed to open stream: No such file or directory - in C:\xampp\htdocs\testlink\lib\project\projectView.php - Line 24
+[<<][611e986882748236515867][DEFAULT][/testlink/lib/project/projectView.php][21/Aug/19 17:44:08][21/Aug/19 17:44:08][took 0.046647 secs]
+[>>][611e98688e117013445381][DEFAULT][/testlink/lib/project/projectView.php][21/Aug/19 17:44:08]
+	[21/Aug/19 17:44:08][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_WARNING
+file_put_contents(/tmp/trace.log): failed to open stream: No such file or directory - in C:\xampp\htdocs\testlink\lib\project\projectView.php - Line 26
+	[21/Aug/19 17:44:08][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_WARNING
+file_put_contents(/tmp/trace.log): failed to open stream: No such file or directory - in C:\xampp\htdocs\testlink\lib\project\projectView.php - Line 29
+	[21/Aug/19 17:44:08][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_WARNING
+file_put_contents(/tmp/trace.log): failed to open stream: No such file or directory - in C:\xampp\htdocs\testlink\lib\project\projectView.php - Line 44
+	[21/Aug/19 17:44:08][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_WARNING
+file_put_contents(/tmp/trace.log): failed to open stream: No such file or directory - in C:\xampp\htdocs\testlink\lib\project\projectView.php - Line 45
+	[21/Aug/19 17:44:08][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_WARNING
+file_put_contents(/tmp/trace.log): failed to open stream: No such file or directory - in C:\xampp\htdocs\testlink\lib\project\projectView.php - Line 55
+[<<][611e98688e117013445381][DEFAULT][/testlink/lib/project/projectView.php][21/Aug/19 17:44:08][21/Aug/19 17:44:08][took 0.082584 secs]
+[<<][611e986a0f8e7078265748][DEFAULT][/testlink/lib/project/projectEdit.php][21/Aug/19 17:44:10][21/Aug/19 17:44:10][took 0.042049 secs]
+[>>][611e986a1a022381429549][DEFAULT][/testlink/lib/project/projectEdit.php][21/Aug/19 17:44:10]
+[<<][611e986a1a022381429549][DEFAULT][/testlink/lib/project/projectEdit.php][21/Aug/19 17:44:10][21/Aug/19 17:44:10][took 0.028238 secs]
+	[21/Aug/19 17:44:11][WARNING][<nosession>][GUI]
+		E_WARNING
+file_put_contents(/tmp/trace.log): failed to open stream: No such file or directory - in C:\xampp\htdocs\testlink\lib\project\projectView.php - Line 24
+[<<][611e986b7d602733390905][DEFAULT][/testlink/lib/project/projectView.php][21/Aug/19 17:44:11][21/Aug/19 17:44:11][took 0.046525 secs]
+[>>][611e986b88ebf121507341][DEFAULT][/testlink/lib/project/projectView.php][21/Aug/19 17:44:11]
+	[21/Aug/19 17:44:11][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_WARNING
+file_put_contents(/tmp/trace.log): failed to open stream: No such file or directory - in C:\xampp\htdocs\testlink\lib\project\projectView.php - Line 26
+	[21/Aug/19 17:44:11][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_WARNING
+file_put_contents(/tmp/trace.log): failed to open stream: No such file or directory - in C:\xampp\htdocs\testlink\lib\project\projectView.php - Line 29
+	[21/Aug/19 17:44:11][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_WARNING
+file_put_contents(/tmp/trace.log): failed to open stream: No such file or directory - in C:\xampp\htdocs\testlink\lib\project\projectView.php - Line 44
+	[21/Aug/19 17:44:11][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_WARNING
+file_put_contents(/tmp/trace.log): failed to open stream: No such file or directory - in C:\xampp\htdocs\testlink\lib\project\projectView.php - Line 45
+	[21/Aug/19 17:44:11][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_WARNING
+file_put_contents(/tmp/trace.log): failed to open stream: No such file or directory - in C:\xampp\htdocs\testlink\lib\project\projectView.php - Line 55
+[<<][611e986b88ebf121507341][DEFAULT][/testlink/lib/project/projectView.php][21/Aug/19 17:44:11][21/Aug/19 17:44:11][took 0.061331 secs]
+[<<][611e9871ba596676148048][DEFAULT][/testlink/lib/general/frmWorkArea.php][21/Aug/19 17:44:17][21/Aug/19 17:44:17][took 0.041326 secs]
+[>>][611e9871c49fd938308013][DEFAULT][/testlink/lib/general/frmWorkArea.php][21/Aug/19 17:44:17]
+[<<][611e9871c49fd938308013][DEFAULT][/testlink/lib/general/frmWorkArea.php][21/Aug/19 17:44:17][21/Aug/19 17:44:17][took 0.012546 secs]
+[<<][611e9871db593834320551][DEFAULT][/testlink/lib/testcases/listTestCases.php][21/Aug/19 17:44:17][21/Aug/19 17:44:17][took 0.049481 secs]
+[>>][611e9871e79ab295626686][DEFAULT][/testlink/lib/testcases/listTestCases.php][21/Aug/19 17:44:17]
+[<<][611e9871e79ab295626686][DEFAULT][/testlink/lib/testcases/listTestCases.php][21/Aug/19 17:44:17][21/Aug/19 17:44:18][took 0.060136 secs]
+[<<][611e9871dd01d082158195][DEFAULT][/testlink/lib/testcases/archiveData.php][21/Aug/19 17:44:17][21/Aug/19 17:44:18][took 0.148751 secs]
+[>>][611e98720d678843616357][DEFAULT][/testlink/lib/testcases/archiveData.php][21/Aug/19 17:44:18]
+[<<][611e98720d678843616357][DEFAULT][/testlink/lib/testcases/archiveData.php][21/Aug/19 17:44:18][21/Aug/19 17:44:18][took 0.0517 secs]
+[<<][611e98722ebb1927797495][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][21/Aug/19 17:44:18][21/Aug/19 17:44:18][took 0.052699 secs]
+[>>][611e98723bd47370169862][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][21/Aug/19 17:44:18]
+[<<][611e98723bd47370169862][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][21/Aug/19 17:44:18][21/Aug/19 17:44:18][took 0.003932 secs]
+[<<][611e987253de2217501879][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][21/Aug/19 17:44:18][21/Aug/19 17:44:18][took 0.034337 secs]
+[>>][611e98725c76a329979843][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][21/Aug/19 17:44:18]
+[<<][611e98725c76a329979843][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][21/Aug/19 17:44:18][21/Aug/19 17:44:18][took 0.004577 secs]
+	[21/Aug/19 17:44:20][WARNING][<nosession>][GUI]
+		E_WARNING
+file_put_contents(/tmp/trace.log): failed to open stream: No such file or directory - in C:\xampp\htdocs\testlink\lib\project\projectView.php - Line 24
+[<<][611e98743e9c8934560629][DEFAULT][/testlink/lib/project/projectView.php][21/Aug/19 17:44:20][21/Aug/19 17:44:20][took 0.042619 secs]
+[>>][611e987449375234230763][DEFAULT][/testlink/lib/project/projectView.php][21/Aug/19 17:44:20]
+	[21/Aug/19 17:44:20][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_WARNING
+file_put_contents(/tmp/trace.log): failed to open stream: No such file or directory - in C:\xampp\htdocs\testlink\lib\project\projectView.php - Line 26
+	[21/Aug/19 17:44:20][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_WARNING
+file_put_contents(/tmp/trace.log): failed to open stream: No such file or directory - in C:\xampp\htdocs\testlink\lib\project\projectView.php - Line 29
+	[21/Aug/19 17:44:20][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_WARNING
+file_put_contents(/tmp/trace.log): failed to open stream: No such file or directory - in C:\xampp\htdocs\testlink\lib\project\projectView.php - Line 44
+	[21/Aug/19 17:44:20][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_WARNING
+file_put_contents(/tmp/trace.log): failed to open stream: No such file or directory - in C:\xampp\htdocs\testlink\lib\project\projectView.php - Line 45
+	[21/Aug/19 17:44:20][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_WARNING
+file_put_contents(/tmp/trace.log): failed to open stream: No such file or directory - in C:\xampp\htdocs\testlink\lib\project\projectView.php - Line 55
+[<<][611e987449375234230763][DEFAULT][/testlink/lib/project/projectView.php][21/Aug/19 17:44:20][21/Aug/19 17:44:20][took 0.064552 secs]
+[<<][611e9876313a9330604640][DEFAULT][/testlink/index.php][21/Aug/19 17:44:22][21/Aug/19 17:44:22][took 0.054684 secs]
+[>>][611e98763ecd5437513317][DEFAULT][/testlink/index.php][21/Aug/19 17:44:22]
+[<<][611e98763ecd5437513317][DEFAULT][/testlink/index.php][21/Aug/19 17:44:22][21/Aug/19 17:44:22][took 0.019481 secs]
+[<<][611e987658d89516156164][DEFAULT][/testlink/lib/general/mainPage.php][21/Aug/19 17:44:22][21/Aug/19 17:44:22][took 0.049587 secs]
+[>>][611e987665241800011434][DEFAULT][/testlink/lib/general/mainPage.php][21/Aug/19 17:44:22]
+	[21/Aug/19 17:44:22][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_WARNING
+Invalid argument supplied for foreach() - in C:\xampp\htdocs\testlink\lib\functions\testproject.class.php - Line 2085
+[<<][611e987665241800011434][DEFAULT][/testlink/lib/general/mainPage.php][21/Aug/19 17:44:22][21/Aug/19 17:44:22][took 0.030054 secs]
+[<<][611e9876599e2273929541][DEFAULT][/testlink/lib/general/navBar.php][21/Aug/19 17:44:22][21/Aug/19 17:44:22][took 0.122015 secs]
+[>>][611e9876784d8198916220][DEFAULT][/testlink/lib/general/navBar.php][21/Aug/19 17:44:22]
+[<<][611e9876784d8198916220][DEFAULT][/testlink/lib/general/navBar.php][21/Aug/19 17:44:22][21/Aug/19 17:44:22][took 0.021268 secs]
+[<<][611e987af2fe3202485950][DEFAULT][/testlink/lib/plan/planView.php][21/Aug/19 17:44:26][21/Aug/19 17:44:27][took 0.043589 secs]
+[>>][611e987b09ab7288164365][DEFAULT][/testlink/lib/plan/planView.php][21/Aug/19 17:44:27]
+[<<][611e987b09ab7288164365][DEFAULT][/testlink/lib/plan/planView.php][21/Aug/19 17:44:27][21/Aug/19 17:44:27][took 0.125497 secs]
+[<<][611e987cb2f00838030540][DEFAULT][/testlink/lib/plan/planEdit.php][21/Aug/19 17:44:28][21/Aug/19 17:44:28][took 0.045773 secs]
+[>>][611e987cbe55e150659716][DEFAULT][/testlink/lib/plan/planEdit.php][21/Aug/19 17:44:28]
+[<<][611e987cbe55e150659716][DEFAULT][/testlink/lib/plan/planEdit.php][21/Aug/19 17:44:28][21/Aug/19 17:44:28][took 0.090347 secs]
+[<<][611e9886a31b1154489444][DEFAULT][/testlink/lib/plan/planEdit.php][21/Aug/19 17:44:38][21/Aug/19 17:44:38][took 0.043273 secs]
+[>>][611e9886addbb986254768][DEFAULT][/testlink/lib/plan/planEdit.php][21/Aug/19 17:44:38]
+	[21/Aug/19 17:44:38][AUDIT][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		Test Project 'Project 2' - Test Plan 'Test plan 2' was created
+[<<][611e9886addbb986254768][DEFAULT][/testlink/lib/plan/planEdit.php][21/Aug/19 17:44:38][21/Aug/19 17:44:38][took 0.103955 secs]
+[<<][611e98871c46f087925935][DEFAULT][/testlink/lib/general/navBar.php][21/Aug/19 17:44:39][21/Aug/19 17:44:39][took 0.057536 secs]
+[>>][611e98872a8a1901726147][DEFAULT][/testlink/lib/general/navBar.php][21/Aug/19 17:44:39]
+[<<][611e98872a8a1901726147][DEFAULT][/testlink/lib/general/navBar.php][21/Aug/19 17:44:39][21/Aug/19 17:44:39][took 0.021324 secs]
+[<<][611e988f81f50146839047][DEFAULT][/testlink/lib/general/frmWorkArea.php][21/Aug/19 17:44:47][21/Aug/19 17:44:47][took 0.049788 secs]
+[>>][611e988f8e550638911157][DEFAULT][/testlink/lib/general/frmWorkArea.php][21/Aug/19 17:44:47]
+[<<][611e988f8e550638911157][DEFAULT][/testlink/lib/general/frmWorkArea.php][21/Aug/19 17:44:47][21/Aug/19 17:44:47][took 0.013319 secs]
+[<<][611e988fa4d07036244309][DEFAULT][/testlink/lib/results/printDocOptions.php][21/Aug/19 17:44:47][21/Aug/19 17:44:47][took 0.050942 secs]
+[>>][611e988fb176d260406537][DEFAULT][/testlink/lib/results/printDocOptions.php][21/Aug/19 17:44:47]
+[<<][611e988fb176d260406537][DEFAULT][/testlink/lib/results/printDocOptions.php][21/Aug/19 17:44:47][21/Aug/19 17:44:47][took 0.045459 secs]
+[<<][611e988fa4edb156464971][DEFAULT][/testlink/lib/plan/planAddTCNavigator.php][21/Aug/19 17:44:47][21/Aug/19 17:44:47][took 0.139711 secs]
+[>>][611e988fc869c437606972][DEFAULT][/testlink/lib/plan/planAddTCNavigator.php][21/Aug/19 17:44:47]
+[<<][611e988fc869c437606972][DEFAULT][/testlink/lib/plan/planAddTCNavigator.php][21/Aug/19 17:44:47][21/Aug/19 17:44:47][took 0.065647 secs]
+[<<][611e98900d78f640401522][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][21/Aug/19 17:44:48][21/Aug/19 17:44:48][took 0.050985 secs]
+[>>][611e98901a2cd840385422][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][21/Aug/19 17:44:48]
+[<<][611e98901a2cd840385422][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][21/Aug/19 17:44:48][21/Aug/19 17:44:48][took 0.003072 secs]
+[<<][611e9892a9b59684428420][DEFAULT][/testlink/lib/plan/planAddTC.php][21/Aug/19 17:44:50][21/Aug/19 17:44:50][took 0.048223 secs]
+[>>][611e9892b5aaf302954838][DEFAULT][/testlink/lib/plan/planAddTC.php][21/Aug/19 17:44:50]
+[<<][611e9892b5aaf302954838][DEFAULT][/testlink/lib/plan/planAddTC.php][21/Aug/19 17:44:50][21/Aug/19 17:44:50][took 0.04507 secs]
+[<<][611e9892d0d25371554391][DEFAULT][/testlink/lib/results/printDocOptions.php][21/Aug/19 17:44:50][21/Aug/19 17:44:50][took 0.045525 secs]
+[>>][611e9892dc19f214566760][DEFAULT][/testlink/lib/results/printDocOptions.php][21/Aug/19 17:44:50]
+[<<][611e9892dc19f214566760][DEFAULT][/testlink/lib/results/printDocOptions.php][21/Aug/19 17:44:50][21/Aug/19 17:44:50][took 0.064482 secs]
+[<<][611e98976ae6a844585677][DEFAULT][/testlink/lib/plan/planAddTC.php][21/Aug/19 17:44:55][21/Aug/19 17:44:55][took 0.046397 secs]
+[>>][611e9897766c5493289275][DEFAULT][/testlink/lib/plan/planAddTC.php][21/Aug/19 17:44:55]
+[<<][611e9897766c5493289275][DEFAULT][/testlink/lib/plan/planAddTC.php][21/Aug/19 17:44:55][21/Aug/19 17:44:55][took 0.045082 secs]
+[<<][611e989792f6b615393725][DEFAULT][/testlink/lib/results/printDocOptions.php][21/Aug/19 17:44:55][21/Aug/19 17:44:55][took 0.028698 secs]
+[>>][611e98979a257380384479][DEFAULT][/testlink/lib/results/printDocOptions.php][21/Aug/19 17:44:55]
+[<<][611e98979a257380384479][DEFAULT][/testlink/lib/results/printDocOptions.php][21/Aug/19 17:44:55][21/Aug/19 17:44:55][took 0.044395 secs]
+[<<][611e98984317f883800634][DEFAULT][/testlink/lib/plan/planAddTC.php][21/Aug/19 17:44:56][21/Aug/19 17:44:56][took 0.054593 secs]
+[>>][611e98985097e166281134][DEFAULT][/testlink/lib/plan/planAddTC.php][21/Aug/19 17:44:56]
+[<<][611e98985097e166281134][DEFAULT][/testlink/lib/plan/planAddTC.php][21/Aug/19 17:44:56][21/Aug/19 17:44:56][took 0.044662 secs]
+[<<][611e98986c851445244056][DEFAULT][/testlink/lib/results/printDocOptions.php][21/Aug/19 17:44:56][21/Aug/19 17:44:56][took 0.041579 secs]
+[>>][611e989876d8b659510579][DEFAULT][/testlink/lib/results/printDocOptions.php][21/Aug/19 17:44:56]
+[<<][611e989876d8b659510579][DEFAULT][/testlink/lib/results/printDocOptions.php][21/Aug/19 17:44:56][21/Aug/19 17:44:56][took 0.043712 secs]
+[<<][611e98997086b196960061][DEFAULT][/testlink/index.php][21/Aug/19 17:44:57][21/Aug/19 17:44:57][took 0.04201 secs]
+[>>][611e98997afbf376497755][DEFAULT][/testlink/index.php][21/Aug/19 17:44:57]
+[<<][611e98997afbf376497755][DEFAULT][/testlink/index.php][21/Aug/19 17:44:57][21/Aug/19 17:44:57][took 0.015091 secs]
+[<<][611e989995cd6595456736][DEFAULT][/testlink/lib/general/navBar.php][21/Aug/19 17:44:57][21/Aug/19 17:44:57][took 0.031953 secs]
+[>>][611e98999dd6e779672172][DEFAULT][/testlink/lib/general/navBar.php][21/Aug/19 17:44:57]
+[<<][611e98999dd6e779672172][DEFAULT][/testlink/lib/general/navBar.php][21/Aug/19 17:44:57][21/Aug/19 17:44:57][took 0.019027 secs]
+[<<][611e9899966d2264464431][DEFAULT][/testlink/lib/general/mainPage.php][21/Aug/19 17:44:57][21/Aug/19 17:44:57][took 0.071381 secs]
+[>>][611e9899a8d87847345128][DEFAULT][/testlink/lib/general/mainPage.php][21/Aug/19 17:44:57]
+	[21/Aug/19 17:44:57][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_WARNING
+Invalid argument supplied for foreach() - in C:\xampp\htdocs\testlink\lib\functions\testproject.class.php - Line 2085
+[<<][611e9899a8d87847345128][DEFAULT][/testlink/lib/general/mainPage.php][21/Aug/19 17:44:57][21/Aug/19 17:44:57][took 0.037145 secs]
+[<<][611e989d88452221494183][DEFAULT][/testlink/lib/general/frmWorkArea.php][21/Aug/19 17:45:01][21/Aug/19 17:45:01][took 0.045022 secs]
+[>>][611e989d9371a648466011][DEFAULT][/testlink/lib/general/frmWorkArea.php][21/Aug/19 17:45:01]
+[<<][611e989d9371a648466011][DEFAULT][/testlink/lib/general/frmWorkArea.php][21/Aug/19 17:45:01][21/Aug/19 17:45:01][took 0.023911 secs]
+[<<][611e989db1e18109064236][DEFAULT][/testlink/lib/testcases/listTestCases.php][21/Aug/19 17:45:01][21/Aug/19 17:45:01][took 0.047542 secs]
+[>>][611e989dbda8a040172972][DEFAULT][/testlink/lib/testcases/listTestCases.php][21/Aug/19 17:45:01]
+	[21/Aug/19 17:45:01][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_WARNING
+Invalid argument supplied for foreach() - in C:\xampp\htdocs\testlink\lib\functions\testproject.class.php - Line 2085
+[<<][611e989dbda8a040172972][DEFAULT][/testlink/lib/testcases/listTestCases.php][21/Aug/19 17:45:01][21/Aug/19 17:45:01][took 0.07771 secs]
+[<<][611e989db2d27592819864][DEFAULT][/testlink/lib/testcases/archiveData.php][21/Aug/19 17:45:01][21/Aug/19 17:45:01][took 0.167998 secs]
+[>>][611e989ddc578592706412][DEFAULT][/testlink/lib/testcases/archiveData.php][21/Aug/19 17:45:01]
+[<<][611e989ddc578592706412][DEFAULT][/testlink/lib/testcases/archiveData.php][21/Aug/19 17:45:01][21/Aug/19 17:45:01][took 0.043581 secs]
+[<<][611e989e07788964726459][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][21/Aug/19 17:45:02][21/Aug/19 17:45:02][took 0.03336 secs]
+[>>][611e989e0fcd5193971354][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][21/Aug/19 17:45:02]
+[<<][611e989e0fcd5193971354][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][21/Aug/19 17:45:02][21/Aug/19 17:45:02][took 0.004432 secs]
+[<<][611e98a45e2b3474767139][DEFAULT][/testlink/index.php][21/Aug/19 17:45:08][21/Aug/19 17:45:08][took 0.051885 secs]
+[>>][611e98a46b08c347828915][DEFAULT][/testlink/index.php][21/Aug/19 17:45:08]
+[<<][611e98a46b08c347828915][DEFAULT][/testlink/index.php][21/Aug/19 17:45:08][21/Aug/19 17:45:08][took 0.024124 secs]
+[<<][611e98a491923448812663][DEFAULT][/testlink/lib/general/mainPage.php][21/Aug/19 17:45:08][21/Aug/19 17:45:08][took 0.03204 secs]
+[>>][611e98a4999c1374306123][DEFAULT][/testlink/lib/general/mainPage.php][21/Aug/19 17:45:08]
+	[21/Aug/19 17:45:08][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_WARNING
+Invalid argument supplied for foreach() - in C:\xampp\htdocs\testlink\lib\functions\testproject.class.php - Line 2085
+[<<][611e98a4999c1374306123][DEFAULT][/testlink/lib/general/mainPage.php][21/Aug/19 17:45:08][21/Aug/19 17:45:08][took 0.03169 secs]
+[<<][611e98a491923459197444][DEFAULT][/testlink/lib/general/navBar.php][21/Aug/19 17:45:08][21/Aug/19 17:45:08][took 0.112346 secs]
+[>>][611e98a4ad306913519667][DEFAULT][/testlink/lib/general/navBar.php][21/Aug/19 17:45:08]
+[<<][611e98a4ad306913519667][DEFAULT][/testlink/lib/general/navBar.php][21/Aug/19 17:45:08][21/Aug/19 17:45:08][took 0.020582 secs]
+[<<][611e98b44bbdf122181074][DEFAULT][/testlink/lib/general/frmWorkArea.php][21/Aug/19 17:45:24][21/Aug/19 17:45:24][took 0.052726 secs]
+[>>][611e98b458eac647856169][DEFAULT][/testlink/lib/general/frmWorkArea.php][21/Aug/19 17:45:24]
+[<<][611e98b458eac647856169][DEFAULT][/testlink/lib/general/frmWorkArea.php][21/Aug/19 17:45:24][21/Aug/19 17:45:24][took 0.019979 secs]
+[<<][611e98b476a9d420223289][DEFAULT][/testlink/lib/testcases/listTestCases.php][21/Aug/19 17:45:24][21/Aug/19 17:45:24][took 0.048717 secs]
+[>>][611e98b482c53519703937][DEFAULT][/testlink/lib/testcases/listTestCases.php][21/Aug/19 17:45:24]
+	[21/Aug/19 17:45:24][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_WARNING
+Invalid argument supplied for foreach() - in C:\xampp\htdocs\testlink\lib\functions\testproject.class.php - Line 2085
+[<<][611e98b482c53519703937][DEFAULT][/testlink/lib/testcases/listTestCases.php][21/Aug/19 17:45:24][21/Aug/19 17:45:24][took 0.049945 secs]
+[<<][611e98b476a8d697532197][DEFAULT][/testlink/lib/testcases/archiveData.php][21/Aug/19 17:45:24][21/Aug/19 17:45:24][took 0.135591 secs]
+[>>][611e98b497feb451385420][DEFAULT][/testlink/lib/testcases/archiveData.php][21/Aug/19 17:45:24]
+[<<][611e98b497feb451385420][DEFAULT][/testlink/lib/testcases/archiveData.php][21/Aug/19 17:45:24][21/Aug/19 17:45:24][took 0.042859 secs]
+[<<][611e98b4c0ce6086063308][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][21/Aug/19 17:45:24][21/Aug/19 17:45:24][took 0.045799 secs]
+[>>][611e98b4cc2fd921068525][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][21/Aug/19 17:45:24]
+[<<][611e98b4cc2fd921068525][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][21/Aug/19 17:45:24][21/Aug/19 17:45:24][took 0.003378 secs]
+[<<][611e98c77b5ae878781787][DEFAULT][/testlink/lib/testcases/listTestCases.php][21/Aug/19 17:45:43][21/Aug/19 17:45:43][took 0.029096 secs]
+[>>][611e98c782a13636053242][DEFAULT][/testlink/lib/testcases/listTestCases.php][21/Aug/19 17:45:43]
+[<<][611e98c782a13636053242][DEFAULT][/testlink/lib/testcases/listTestCases.php][21/Aug/19 17:45:43][21/Aug/19 17:45:43][took 0.056752 secs]
+[<<][611e98c9af314608946014][DEFAULT][/testlink/lib/testcases/archiveData.php][21/Aug/19 17:45:45][21/Aug/19 17:45:45][took 0.053351 secs]
+[>>][611e98c9bc6ab673578862][DEFAULT][/testlink/lib/testcases/archiveData.php][21/Aug/19 17:45:45]
+[<<][611e98c9bc6ab673578862][DEFAULT][/testlink/lib/testcases/archiveData.php][21/Aug/19 17:45:45][21/Aug/19 17:45:45][took 0.063309 secs]
+[<<][611e98ce4ae79099090081][DEFAULT][/testlink/lib/testcases/containerEdit.php][21/Aug/19 17:45:50][21/Aug/19 17:45:50][took 0.053795 secs]
+[>>][611e98ce585b1043946930][DEFAULT][/testlink/lib/testcases/containerEdit.php][21/Aug/19 17:45:50]
+	[21/Aug/19 17:45:50][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_NOTICE
+Undefined property: stdClass::$containerID - in C:\xampp\htdocs\testlink\gui\templates_c\a88f927833d99426d1f2782aef8df1485832651b_0.file.containerNew.tpl.php - Line 79
+[<<][611e98ce585b1043946930][DEFAULT][/testlink/lib/testcases/containerEdit.php][21/Aug/19 17:45:50][21/Aug/19 17:45:50][took 0.06461 secs]
+[<<][611e98d656704990633776][DEFAULT][/testlink/lib/testcases/containerEdit.php][21/Aug/19 17:45:58][21/Aug/19 17:45:58][took 0.055076 secs]
+[>>][611e98d6641f1994085816][DEFAULT][/testlink/lib/testcases/containerEdit.php][21/Aug/19 17:45:58]
+	[21/Aug/19 17:45:58][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_NOTICE
+Trying to access array offset on value of type null - in C:\xampp\htdocs\testlink\lib\functions\tree.class.php - Line 725
+	[21/Aug/19 17:45:58][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_NOTICE
+Trying to access array offset on value of type null - in C:\xampp\htdocs\testlink\lib\functions\tree.class.php - Line 725
+	[21/Aug/19 17:45:58][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_NOTICE
+Undefined property: stdClass::$containerID - in C:\xampp\htdocs\testlink\gui\templates_c\a88f927833d99426d1f2782aef8df1485832651b_0.file.containerNew.tpl.php - Line 79
+[<<][611e98d6641f1994085816][DEFAULT][/testlink/lib/testcases/containerEdit.php][21/Aug/19 17:45:58][21/Aug/19 17:45:58][took 0.135514 secs]
+[<<][611e98d6a687f443634873][DEFAULT][/testlink/lib/testcases/listTestCases.php][21/Aug/19 17:45:58][21/Aug/19 17:45:58][took 0.059067 secs]
+[>>][611e98d6b52bc494219297][DEFAULT][/testlink/lib/testcases/listTestCases.php][21/Aug/19 17:45:58]
+[<<][611e98d6b52bc494219297][DEFAULT][/testlink/lib/testcases/listTestCases.php][21/Aug/19 17:45:58][21/Aug/19 17:45:58][took 0.053544 secs]
+[<<][611e98de9dc58548469562][DEFAULT][/testlink/lib/testcases/archiveData.php][21/Aug/19 17:46:06][21/Aug/19 17:46:06][took 0.039036 secs]
+[>>][611e98dea7840005726733][DEFAULT][/testlink/lib/testcases/archiveData.php][21/Aug/19 17:46:06]
+[<<][611e98dea7840005726733][DEFAULT][/testlink/lib/testcases/archiveData.php][21/Aug/19 17:46:06][21/Aug/19 17:46:06][took 0.038162 secs]
+[<<][611e98e341b53444567662][DEFAULT][/testlink/lib/testcases/containerEdit.php][21/Aug/19 17:46:11][21/Aug/19 17:46:11][took 0.054772 secs]
+[>>][611e98e34f486805980017][DEFAULT][/testlink/lib/testcases/containerEdit.php][21/Aug/19 17:46:11]
+	[21/Aug/19 17:46:11][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_NOTICE
+Undefined property: stdClass::$containerID - in C:\xampp\htdocs\testlink\gui\templates_c\a88f927833d99426d1f2782aef8df1485832651b_0.file.containerNew.tpl.php - Line 79
+[<<][611e98e34f486805980017][DEFAULT][/testlink/lib/testcases/containerEdit.php][21/Aug/19 17:46:11][21/Aug/19 17:46:11][took 0.101649 secs]
+[<<][611e98ed6cdef000149257][DEFAULT][/testlink/lib/testcases/containerEdit.php][21/Aug/19 17:46:21][21/Aug/19 17:46:21][took 0.045161 secs]
+[>>][611e98ed78186061491187][DEFAULT][/testlink/lib/testcases/containerEdit.php][21/Aug/19 17:46:21]
+	[21/Aug/19 17:46:21][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_NOTICE
+Undefined property: stdClass::$containerID - in C:\xampp\htdocs\testlink\gui\templates_c\a88f927833d99426d1f2782aef8df1485832651b_0.file.containerNew.tpl.php - Line 79
+[<<][611e98ed78186061491187][DEFAULT][/testlink/lib/testcases/containerEdit.php][21/Aug/19 17:46:21][21/Aug/19 17:46:21][took 0.067403 secs]
+[<<][611e98edb9391514548839][DEFAULT][/testlink/lib/testcases/listTestCases.php][21/Aug/19 17:46:21][21/Aug/19 17:46:21][took 0.049741 secs]
+[>>][611e98edc591d538049824][DEFAULT][/testlink/lib/testcases/listTestCases.php][21/Aug/19 17:46:21]
+[<<][611e98edc591d538049824][DEFAULT][/testlink/lib/testcases/listTestCases.php][21/Aug/19 17:46:21][21/Aug/19 17:46:21][took 0.05089 secs]
+[<<][611e9902df38e266254990][DEFAULT][/testlink/lib/testcases/listTestCases.php][21/Aug/19 17:46:42][21/Aug/19 17:46:42][took 0.053869 secs]
+[>>][611e9902ecb0c643131788][DEFAULT][/testlink/lib/testcases/listTestCases.php][21/Aug/19 17:46:42]
+	[21/Aug/19 17:46:43][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_WARNING
+Invalid argument supplied for foreach() - in C:\xampp\htdocs\testlink\lib\functions\testproject.class.php - Line 2085
+[<<][611e9902ecb0c643131788][DEFAULT][/testlink/lib/testcases/listTestCases.php][21/Aug/19 17:46:42][21/Aug/19 17:46:43][took 0.070485 secs]
+[<<][611e990472280393270538][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][21/Aug/19 17:46:44][21/Aug/19 17:46:44][took 0.057678 secs]
+[>>][611e990480878496923538][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][21/Aug/19 17:46:44]
+[<<][611e990480878496923538][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][21/Aug/19 17:46:44][21/Aug/19 17:46:44][took 0.009984 secs]
+[<<][611e990653d15305985681][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][21/Aug/19 17:46:46][21/Aug/19 17:46:46][took 0.046011 secs]
+[>>][611e99065f3f2071888998][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][21/Aug/19 17:46:46]
+[<<][611e99065f3f2071888998][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][21/Aug/19 17:46:46][21/Aug/19 17:46:46][took 0.003139 secs]
+[<<][611e99072ab72852520815][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][21/Aug/19 17:46:47][21/Aug/19 17:46:47][took 0.045102 secs]
+[>>][611e990735ee0441035577][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][21/Aug/19 17:46:47]
+[<<][611e990735ee0441035577][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][21/Aug/19 17:46:47][21/Aug/19 17:46:47][took 0.003544 secs]
+[<<][611e990812883693665902][DEFAULT][/testlink/lib/testcases/archiveData.php][21/Aug/19 17:46:48][21/Aug/19 17:46:48][took 0.051048 secs]
+[>>][611e99081f2e9273702211][DEFAULT][/testlink/lib/testcases/archiveData.php][21/Aug/19 17:46:48]
+	[21/Aug/19 17:46:48][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_NOTICE
+Undefined index: labels - in C:\xampp\htdocs\testlink\gui\templates_c\6ace8052b152c4fa9ca6b7d8213f6e72c7a54306_0.file.containerViewTestSuiteTextButtons.inc.tpl.php - Line 165
+	[21/Aug/19 17:46:48][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_NOTICE
+Trying to access array offset on value of type null - in C:\xampp\htdocs\testlink\gui\templates_c\6ace8052b152c4fa9ca6b7d8213f6e72c7a54306_0.file.containerViewTestSuiteTextButtons.inc.tpl.php - Line 165
+	[21/Aug/19 17:46:48][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_NOTICE
+Undefined index: delete_testcases - in C:\xampp\htdocs\testlink\gui\templates_c\6ace8052b152c4fa9ca6b7d8213f6e72c7a54306_0.file.containerViewTestSuiteTextButtons.inc.tpl.php - Line 203
+[<<][611e99081f2e9273702211][DEFAULT][/testlink/lib/testcases/archiveData.php][21/Aug/19 17:46:48][21/Aug/19 17:46:48][took 0.06577 secs]
+[<<][611e990dbd54e877573911][DEFAULT][/testlink/lib/testcases/tcEdit.php][21/Aug/19 17:46:53][21/Aug/19 17:46:53][took 0.047803 secs]
+[>>][611e990dc949c147566522][DEFAULT][/testlink/lib/testcases/tcEdit.php][21/Aug/19 17:46:53]
+	[21/Aug/19 17:46:53][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_NOTICE
+Undefined property: stdClass::$basehref - in C:\xampp\htdocs\testlink\lib\functions\testcase.class.php - Line 5386
+	[21/Aug/19 17:46:53][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_NOTICE
+Undefined property: stdClass::$id - in C:\xampp\htdocs\testlink\lib\functions\testcase.class.php - Line 5387
+	[21/Aug/19 17:46:53][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_NOTICE
+Trying to access array offset on value of type null - in C:\xampp\htdocs\testlink\lib\functions\testcase.class.php - Line 5428
+	[21/Aug/19 17:46:53][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_NOTICE
+Undefined property: stdClass::$basehref - in C:\xampp\htdocs\testlink\lib\testcases\tcEdit.php - Line 760
+	[21/Aug/19 17:46:53][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_NOTICE
+Undefined property: stdClass::$tprojOpt - in C:\xampp\htdocs\testlink\gui\templates_c\6f5b646c6eddbb304181e105093f3a8adac5f01e_0.file.attributesLinear.inc.tpl.php - Line 38
+	[21/Aug/19 17:46:53][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_NOTICE
+Trying to get property 'testPriorityEnabled' of non-object - in C:\xampp\htdocs\testlink\gui\templates_c\6f5b646c6eddbb304181e105093f3a8adac5f01e_0.file.attributesLinear.inc.tpl.php - Line 38
+	[21/Aug/19 17:46:53][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_NOTICE
+Undefined property: stdClass::$tprojOpt - in C:\xampp\htdocs\testlink\gui\templates_c\6f5b646c6eddbb304181e105093f3a8adac5f01e_0.file.attributesLinear.inc.tpl.php - Line 50
+	[21/Aug/19 17:46:53][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_NOTICE
+Trying to get property 'automationEnabled' of non-object - in C:\xampp\htdocs\testlink\gui\templates_c\6f5b646c6eddbb304181e105093f3a8adac5f01e_0.file.attributesLinear.inc.tpl.php - Line 50
+[<<][611e990dc949c147566522][DEFAULT][/testlink/lib/testcases/tcEdit.php][21/Aug/19 17:46:53][21/Aug/19 17:46:53][took 0.156466 secs]
+[<<][611e991046836297997476][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:56][21/Aug/19 17:46:56][took 0.066995 secs]
+[>>][611e99105720c491682481][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:56]
+[<<][611e99105720c491682481][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:56][21/Aug/19 17:46:56][took 0.012115 secs]
+[<<][611e991049b71868331171][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:56][21/Aug/19 17:46:56][took 0.132903 secs]
+[>>][611e99106a736408360579][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:56]
+[<<][611e99106a736408360579][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:56][21/Aug/19 17:46:56][took 0.006059 secs]
+[<<][611e9910731b9520307801][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:56][21/Aug/19 17:46:56][took 0.043829 secs]
+[>>][611e99107dfdf300060469][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:56]
+[<<][611e99107dfdf300060469][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:56][21/Aug/19 17:46:56][took 0.006278 secs]
+[<<][611e991084595562004578][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:56][21/Aug/19 17:46:56][took 0.053149 secs]
+[>>][611e991091839629339605][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:56]
+[<<][611e991091839629339605][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:56][21/Aug/19 17:46:56][took 0.011718 secs]
+[<<][611e9910ba80f977459782][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:56][21/Aug/19 17:46:56][took 0.051477 secs]
+[>>][611e9910c73e8148804224][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:56]
+[<<][611e9910c73e8148804224][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:56][21/Aug/19 17:46:56][took 0.005044 secs]
+[<<][611e9910ed245365114273][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:56][21/Aug/19 17:46:57][took 0.047964 secs]
+[>>][611e991104e38677373223][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:57]
+[<<][611e991104e38677373223][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:57][21/Aug/19 17:46:57][took 0.010576 secs]
+[<<][611e99111a7e3351227391][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:57][21/Aug/19 17:46:57][took 0.052773 secs]
+[>>][611e99112798c392954962][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:57]
+[<<][611e99112798c392954962][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:57][21/Aug/19 17:46:57][took 0.005303 secs]
+[<<][611e991128217389897393][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:57][21/Aug/19 17:46:57][took 0.045284 secs]
+[>>][611e99113358d332614824][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:57]
+[<<][611e99113358d332614824][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:57][21/Aug/19 17:46:57][took 0.004937 secs]
+[<<][611e99116dc34437649824][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:57][21/Aug/19 17:46:57][took 0.042114 secs]
+[>>][611e9911783b7203970358][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:57]
+[<<][611e9911783b7203970358][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:57][21/Aug/19 17:46:57][took 0.004752 secs]
+[<<][611e99117f0ff900214580][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:57][21/Aug/19 17:46:57][took 0.050275 secs]
+[>>][611e99118b7e1165333509][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:57]
+[<<][611e99118b7e1165333509][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:57][21/Aug/19 17:46:57][took 0.0049450000000001 secs]
+[<<][611e99118e30d768463721][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:57][21/Aug/19 17:46:57][took 0.052374 secs]
+[>>][611e99119b24c219684462][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:57]
+[<<][611e99119b24c219684462][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:57][21/Aug/19 17:46:57][took 0.004802 secs]
+[<<][611e9911a9665607176558][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:57][21/Aug/19 17:46:57][took 0.028091 secs]
+[>>][611e9911b06d1185631276][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:57]
+[<<][611e9911b06d1185631276][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:57][21/Aug/19 17:46:57][took 0.0051699999999999 secs]
+[<<][611e99120a003743733851][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:58][21/Aug/19 17:46:58][took 0.048049 secs]
+[>>][611e9912161a7773659734][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:58]
+[<<][611e9912161a7773659734][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:58][21/Aug/19 17:46:58][took 0.008165 secs]
+[<<][611e9912a67ae936090015][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:58][21/Aug/19 17:46:58][took 0.050535 secs]
+[>>][611e9912b3040448595120][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:58]
+[<<][611e9912b3040448595120][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:58][21/Aug/19 17:46:58][took 0.0091260000000001 secs]
+[<<][611e9912cabf3683854787][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:58][21/Aug/19 17:46:58][took 0.042838 secs]
+[>>][611e9912d563d541523745][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:58]
+[<<][611e9912d563d541523745][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:58][21/Aug/19 17:46:58][took 0.0046930000000001 secs]
+[<<][611e9912db385616178824][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:58][21/Aug/19 17:46:58][took 0.038289 secs]
+[>>][611e9912e4bea601213657][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:58]
+[<<][611e9912e4bea601213657][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:58][21/Aug/19 17:46:58][took 0.005476 secs]
+[<<][611e991317dfb958355277][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:59][21/Aug/19 17:46:59][took 0.041972 secs]
+[>>][611e9913224b0160525187][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:59]
+[<<][611e9913224b0160525187][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:59][21/Aug/19 17:46:59][took 0.004911 secs]
+[<<][611e991342322426704231][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:59][21/Aug/19 17:46:59][took 0.032109 secs]
+[>>][611e99134a43d524844318][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:59]
+[<<][611e99134a43d524844318][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:59][21/Aug/19 17:46:59][took 0.005143 secs]
+[<<][611e99135e495135869830][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:59][21/Aug/19 17:46:59][took 0.051556 secs]
+[>>][611e99136b117621841350][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:59]
+[<<][611e99136b117621841350][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:59][21/Aug/19 17:46:59][took 0.004978 secs]
+[<<][611e99138acd8354302340][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:59][21/Aug/19 17:46:59][took 0.041631 secs]
+[>>][611e99139538b813170447][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:59]
+[<<][611e99139538b813170447][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:59][21/Aug/19 17:46:59][took 0.005136 secs]
+[<<][611e99139117a681230380][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:59][21/Aug/19 17:46:59][took 0.064463 secs]
+[>>][611e9913a1032233064156][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:59]
+[<<][611e9913a1032233064156][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:59][21/Aug/19 17:46:59][took 0.009557 secs]
+[<<][611e9913b4951041791201][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:59][21/Aug/19 17:46:59][took 0.044075 secs]
+[>>][611e9913bf894784804427][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:59]
+[<<][611e9913bf894784804427][DEFAULT][/lib/ajax/checkTCaseDuplicateName.php][21/Aug/19 17:46:59][21/Aug/19 17:46:59][took 0.004871 secs]
+[<<][611e991cc3750989272661][DEFAULT][/testlink/lib/testcases/tcEdit.php][21/Aug/19 17:47:08][21/Aug/19 17:47:08][took 0.047157 secs]
+[>>][611e991ccf2e5475289705][DEFAULT][/testlink/lib/testcases/tcEdit.php][21/Aug/19 17:47:08]
+	[21/Aug/19 17:47:08][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_NOTICE
+Undefined property: stdClass::$basehref - in C:\xampp\htdocs\testlink\lib\functions\testcase.class.php - Line 5386
+	[21/Aug/19 17:47:08][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_NOTICE
+Undefined property: stdClass::$id - in C:\xampp\htdocs\testlink\lib\functions\testcase.class.php - Line 5387
+	[21/Aug/19 17:47:08][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_NOTICE
+Trying to access array offset on value of type null - in C:\xampp\htdocs\testlink\lib\functions\testcase.class.php - Line 5428
+	[21/Aug/19 17:47:08][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_NOTICE
+Trying to access array offset on value of type null - in C:\xampp\htdocs\testlink\lib\functions\tree.class.php - Line 725
+	[21/Aug/19 17:47:08][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_NOTICE
+Trying to access array offset on value of type null - in C:\xampp\htdocs\testlink\lib\functions\tree.class.php - Line 725
+	[21/Aug/19 17:47:08][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_NOTICE
+Undefined property: stdClass::$uploadOp - in C:\xampp\htdocs\testlink\lib\testcases\testcaseCommands.class.php - Line 1186
+	[21/Aug/19 17:47:08][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_NOTICE
+Undefined property: stdClass::$id - in C:\xampp\htdocs\testlink\lib\functions\testcase.class.php - Line 5387
+	[21/Aug/19 17:47:08][WARNING][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		E_NOTICE
+Trying to access array offset on value of type null - in C:\xampp\htdocs\testlink\lib\functions\testcase.class.php - Line 5428
+[<<][611e991ccf2e5475289705][DEFAULT][/testlink/lib/testcases/tcEdit.php][21/Aug/19 17:47:08][21/Aug/19 17:47:09][took 0.156539 secs]
+[<<][611e991d521d0664080588][DEFAULT][/testlink/lib/testcases/listTestCases.php][21/Aug/19 17:47:09][21/Aug/19 17:47:09][took 0.062268 secs]
+[>>][611e991d617fb077127419][DEFAULT][/testlink/lib/testcases/listTestCases.php][21/Aug/19 17:47:09]
+[<<][611e991d617fb077127419][DEFAULT][/testlink/lib/testcases/listTestCases.php][21/Aug/19 17:47:09][21/Aug/19 17:47:09][took 0.058284 secs]
+[<<][611e991dcb3ca586979024][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][21/Aug/19 17:47:09][21/Aug/19 17:47:09][took 0.058864 secs]
+[>>][611e991dd9dc9699884146][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][21/Aug/19 17:47:09]
+[<<][611e991dd9dc9699884146][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][21/Aug/19 17:47:09][21/Aug/19 17:47:09][took 0.003304 secs]
+[<<][611e991de797d516386542][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][21/Aug/19 17:47:09][21/Aug/19 17:47:10][took 0.051568 secs]
+[>>][611e991e00588802548714][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][21/Aug/19 17:47:10]
+[<<][611e991e00588802548714][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][21/Aug/19 17:47:10][21/Aug/19 17:47:10][took 0.003614 secs]
+[<<][611e991e15354683501416][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][21/Aug/19 17:47:10][21/Aug/19 17:47:10][took 0.056764 secs]
+[>>][611e991e2343b752484364][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][21/Aug/19 17:47:10]
+[<<][611e991e2343b752484364][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][21/Aug/19 17:47:10][21/Aug/19 17:47:10][took 0.002985 secs]

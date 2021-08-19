@@ -62,3 +62,7 @@
 		Test Case 'p1-7' has been executed on Build 'test1' in the Test Plan 'dfsdf'.
 	[21/Aug/19 17:27:28][AUDIT][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
 		Test Case 'p1-9' has been executed on Build 'test1' in the Test Plan 'dfsdf'.
+	[21/Aug/19 17:43:51][AUDIT][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		Test Project 'Project 2' was created
+	[21/Aug/19 17:44:38][AUDIT][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		Test Project 'Project 2' - Test Plan 'Test plan 2' was created

@@ -1191,11 +1191,9 @@ class testcaseCommands {
     $guiObj->has_been_executed = $argsObj->has_been_executed;
     $guiObj->steps_results_layout = config_get('spec_cfg')->steps_results_layout;
     $guiObj->user_feedback = '';
-    
+    $argsObj->basehref = $_SESSION['basehref'];
     $guiObj->direct_link = 
-      $this->tcaseMgr->buildDirectWebLink($_SESSION['basehref'],
-                                          $argsObj->tcase_id,
-                                          $argsObj->tproject_id);
+      $this->tcaseMgr->buildDirectWebLink($argsObj);
 
     if($userFeedback['status_ok']) {
       if( $options['updateTPlanLinkToTCV'] ) {

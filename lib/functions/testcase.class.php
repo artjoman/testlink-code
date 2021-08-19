@@ -5388,10 +5388,11 @@ class testcase extends tlObjectWithAttachments {
     $tproject_id = null;
     if (property_exists($context, 'tproject_id')) {
       $tproject_id = intval($context->tproject_id);
-    } else {
-      // Artjoms hardcode project name in case if tproject_id is not found in context
-      $tproject_id = 1;
     }
+    // else {
+    //   // Artjoms hardcode project name in case if tproject_id is not found in context
+    //   $tproject_id = 1;
+    // }
 
     list($external_id,$prefix,$glue,$tc_number) = 
       $this->getExternalID($id,$tproject_id);
