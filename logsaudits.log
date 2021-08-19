@@ -1,0 +1,64 @@
+	[21/Aug/19 16:08:28][AUDIT][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		Login for 'admin' from '::1' succeeded
+	[21/Aug/19 16:08:44][AUDIT][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		Test Project 'Project1' was created
+	[21/Aug/19 16:56:32][AUDIT][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		Test Project 'Project1' - Test Plan 'dfsdf' was created
+	[21/Aug/19 16:57:14][AUDIT][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		Test Case 'p1-1 : Test case title' version 1 was added to Test Plan dfsdf
+	[21/Aug/19 16:57:14][AUDIT][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		Test Case 'p1-2 : tc2' version 1 was added to Test Plan dfsdf
+	[21/Aug/19 16:57:14][AUDIT][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		Test Case 'p1-3 : dsfsd' version 1 was added to Test Plan dfsdf
+	[21/Aug/19 16:57:14][AUDIT][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		Test Case 'p1-4 : 12321' version 1 was added to Test Plan dfsdf
+	[21/Aug/19 16:57:14][AUDIT][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		Test Case 'p1-5 : dsfsf' version 1 was added to Test Plan dfsdf
+	[21/Aug/19 16:57:14][AUDIT][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		Test Case 'p1-6 : sadsa' version 1 was added to Test Plan dfsdf
+	[21/Aug/19 16:57:14][AUDIT][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		Test Case 'p1-7 : asdsa' version 1 was added to Test Plan dfsdf
+	[21/Aug/19 16:57:15][AUDIT][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		Test Case 'p1-8 : 23423' version 1 was added to Test Plan dfsdf
+	[21/Aug/19 16:57:15][AUDIT][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		Test Case 'p1-9 : asda' version 1 was added to Test Plan dfsdf
+	[21/Aug/19 17:02:12][AUDIT][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		Test Project 'Project1' - Test Plan 'dfsdf' - Build 'test1' was created
+	[21/Aug/19 17:02:22][AUDIT][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		Use of 'buildEdit.php' requires environment (test project id) and is not set. Exit forced
+	[21/Aug/19 17:02:29][AUDIT][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		Use of 'buildEdit.php' requires environment (test project id) and is not set. Exit forced
+	[21/Aug/19 17:06:43][AUDIT][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		Test Case 'p1-1' has been executed on Build 'test1' in the Test Plan 'dfsdf'.
+	[21/Aug/19 17:08:56][AUDIT][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		Test Case 'p1-1' has been executed on Build 'test1' in the Test Plan 'dfsdf'.
+	[21/Aug/19 17:09:19][AUDIT][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		Test Case 'p1-1' has been executed on Build 'test1' in the Test Plan 'dfsdf'.
+	[21/Aug/19 17:10:43][AUDIT][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		Test Case 'p1-3' has been executed on Build 'test1' in the Test Plan 'dfsdf'.
+	[21/Aug/19 17:12:53][AUDIT][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		Test Project 'Project1' - Test Plan '123' was created
+	[21/Aug/19 17:23:06][AUDIT][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		Test Project 'Project1' - Test Plan '123' - Build 'Build 1' was created
+	[21/Aug/19 17:23:13][AUDIT][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		Use of 'buildEdit.php' requires environment (test project id) and is not set. Exit forced
+	[21/Aug/19 17:23:16][AUDIT][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		Use of 'buildEdit.php' requires environment (test project id) and is not set. Exit forced
+	[21/Aug/19 17:24:41][AUDIT][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		Test Case 'p1-1' has been executed on Build 'test1' in the Test Plan 'dfsdf'.
+	[21/Aug/19 17:26:42][AUDIT][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		Test Case 'p1-2' has been executed on Build 'test1' in the Test Plan 'dfsdf'.
+	[21/Aug/19 17:27:00][AUDIT][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		Test Case 'p1-2' has been executed on Build 'test1' in the Test Plan 'dfsdf'.
+	[21/Aug/19 17:27:12][AUDIT][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		Test Case 'p1-4' has been executed on Build 'test1' in the Test Plan 'dfsdf'.
+	[21/Aug/19 17:27:15][AUDIT][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		Test Case 'p1-5' has been executed on Build 'test1' in the Test Plan 'dfsdf'.
+	[21/Aug/19 17:27:18][AUDIT][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		Test Case 'p1-6' has been executed on Build 'test1' in the Test Plan 'dfsdf'.
+	[21/Aug/19 17:27:21][AUDIT][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		Test Case 'p1-8' has been executed on Build 'test1' in the Test Plan 'dfsdf'.
+	[21/Aug/19 17:27:23][AUDIT][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		Test Case 'p1-7' has been executed on Build 'test1' in the Test Plan 'dfsdf'.
+	[21/Aug/19 17:27:28][AUDIT][vtvi3o4h0uc0q4gfgoghcolnst][GUI]
+		Test Case 'p1-9' has been executed on Build 'test1' in the Test Plan 'dfsdf'.
