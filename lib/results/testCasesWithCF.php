@@ -53,7 +53,7 @@ if ( $args->doIt ) {
 		             "{$args->tplan_id}, {$item['platform_id']});\">" .
 		             "<img title=\"{$labels['execution']}\" src=\"{$imgSet['exec_icon']}\" /></a> ";
 
-		$edit_link = "<a href=\"javascript:openTCEditWindow({$item['tcase_id']});\">" .
+		$edit_link = "<a href=\"javascript:openTCEditWindow({$item['tcase_id']},{$args->tproject_id});\">" .
 					 "<img title=\"{$labels['design']}\" src=\"{$imgSet['edit_icon']}\" /></a> ";
 
 		$tcaseName = buildExternalIdString($gui->tcasePrefix, $item['tc_external_id']) . ' : ' . $item['tcase_name'];

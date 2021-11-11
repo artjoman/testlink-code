@@ -128,7 +128,7 @@ if( $doIt )
                              "<img title=\"{$gui->l18n['execution_history']}\" src=\"{$imgSet['history_small']}\" /></a> ";
         
         
-        $edit_link = "<a href=\"javascript:openTCEditWindow({$tcase_id});\">" .
+        $edit_link = "<a href=\"javascript:openTCEditWindow({$tcase_id},{$gui->tproject_id});\">" .
                      "<img title=\"{$gui->l18n['design']}\" src=\"{$imgSet['edit_icon']}\" /></a> ";
         
         $current_row[] = "<!-- " . sprintf("%010d", $tcase['tc_external_id']) . " -->" . $elk . $exec_history_link .

@@ -91,7 +91,7 @@ foreach ($execSet as $execution)
       // add linked icons
       $exec_history_link = "<a href=\"javascript:openExecHistoryWindow({$tc_id});\">" .
                            "<img title=\"" . $l18n['execution_history'] ."\" src=\"{$img['history']}\" /></a> ";
-      $edit_link = "<a href=\"javascript:openTCEditWindow({$tc_id});\">" .
+      $edit_link = "<a href=\"javascript:openTCEditWindow({$tc_id},{$args->tproject_id});\">" .
                    "<img title=\"" . $l18n['design'] . "\" src=\"{$img['edit']}\" /></a> ";
 
       $tc_name = "<!-- " . sprintf("%010d", $execution['external_id']) . " -->" . $exec_history_link .

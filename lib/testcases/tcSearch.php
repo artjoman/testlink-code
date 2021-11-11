@@ -325,7 +325,7 @@ function buildExtTable($gui, $charset, $edit_icon, $history_icon)  {
       // build test case link
       $history_link = "<a href=\"javascript:openExecHistoryWindow({$result['testcase_id']});\">" .
                       "<img title=\"". lang_get('execution_history') . "\" src=\"{$history_icon}\" /></a> ";
-      $edit_link = "<a href=\"javascript:openTCEditWindow({$result['testcase_id']});\">" .
+      $edit_link = "<a href=\"javascript:openTCEditWindow({$result['testcase_id']},{$gui->tproject_id});\">" .
                    "<img title=\"". lang_get('design') . "\" src=\"{$edit_icon}\" /></a> ";
       $tcaseName = htmlentities($gui->tcasePrefix, ENT_QUOTES, $charset) . $result['tc_external_id'] . 
                    " [v" . $result['version'] . "]" . $titleSeperator .

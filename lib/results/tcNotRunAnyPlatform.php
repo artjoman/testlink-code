@@ -98,7 +98,7 @@ if ($lastResultMap != null && $platforms_active)
 					// create linked icons
 					$exec_history_link = "<a href=\"javascript:openExecHistoryWindow({$testCaseId});\">" .
 										 "<img title=\"{$labels['execution_history']}\" src=\"{$history_img}\" /></a> ";
-					$edit_link = "<a href=\"javascript:openTCEditWindow({$testCaseId});\">" .
+					$edit_link = "<a href=\"javascript:openTCEditWindow({$testCaseId},{$args->tproject_id});\">" .
 								 "<img title=\"{$labels['design']}\" src=\"{$edit_img}\" /></a> ";
 
 					$dl = str_replace(" ", "%20", $args->basehref) . 'linkto.php?tprojectPrefix=' . urlencode($tproject_info['prefix']) .

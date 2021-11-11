@@ -510,7 +510,7 @@ function buildDataSet(&$db,&$args,&$gui,&$metrics,$labels,$forceFormat=null)
             $rows[$cols['link']] .= 
               "<a href=\"javascript:openExecHistoryWindow({$tcaseID});\">" .
               $hist_img_tag .
-              "<a href=\"javascript:openTCEditWindow({$tcaseID});\">" .
+              "<a href=\"javascript:openTCEditWindow({$tcaseID},{$args->tproject_id});\">" .
               $edit_img_tag; 
           }                       
           $rows[$cols['link']] .= $name;

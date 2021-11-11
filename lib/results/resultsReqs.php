@@ -303,7 +303,7 @@ if (count($rspecSet))
             $exec_history_link = "<a href=\"javascript:openExecHistoryWindow({$tc_id});\">" .
                                  "<img title=\"{$labels['execution_history']}\" " .
                                  " src=\"{$images['history_small']}\" /></a> ";
-            $edit_link = "<a href=\"javascript:openTCEditWindow({$tc_id});\">" .
+            $edit_link = "<a href=\"javascript:openTCEditWindow,{$args->tproject_id});\">" .
                          "<img title=\"{$labels['design']}\" src=\"{$images['edit_icon']}\" /></a> ";
             
             $exec_link = "";

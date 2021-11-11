@@ -57,7 +57,7 @@ if( !is_null($gui->freeTestCases['items'])) {
 			$rowData[] = strip_tags($tsuites[$tcases['id']]);
 			$rowData[] = "<!-- " . sprintf("%010d", $tcases['tc_external_id']) . 
          " -->" . 
-		     "<a href=\"javascript:openTCEditWindow({$tcases['id']});\">" .
+		     "<a href=\"javascript:openTCEditWindow({$tcases['id']},{$args->tproject_id});\">" .
 				 "<img title=\"{$l10n['design']}\" src=\"{$edit_img}\" /></a> " .
 				 $tcasePrefix . $tcases['tc_external_id'] . ':' . 
          strip_tags($tcases['name']);

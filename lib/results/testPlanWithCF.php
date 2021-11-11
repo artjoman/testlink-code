@@ -130,7 +130,7 @@ function buildExtTable($gui,$tcase_mgr,$tplan_mgr, $tplan_id, $labels, $edit_ico
 			                              $title_sep . $item['tcase_name'];
 
 			// create linked icons
-			$edit_link = "<a href=\"javascript:openTCEditWindow({$item['tcase_id']});\">" .
+			$edit_link = "<a href=\"javascript:openTCEditWindow({$item['tcase_id']},{$gui->tproject_id});\">" .
 						 "<img title=\"{$labels['design']}\" src=\"{$edit_icon}\" /></a> ";
 
 			$rowData[] = "<!-- " . sprintf("%010d", $item['tc_external_id']) . " -->" . $edit_link . $name;;
