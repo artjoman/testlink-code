@@ -369,7 +369,7 @@ class cfield_mgr extends tlObject
     $ctx = array('tproject_id' => null, 'enabled' => true, 'node_type' => null, 
                  'node_id' => null);
     $ctx = array_merge($ctx,$context);
-    if( null == $ctx['tproject_id'] ) {
+    if( null === $ctx['tproject_id'] ) {
       throw new Exception(__METHOD__ . ' EXCEPTION: test project ID, is mandatory');  
     }
 
