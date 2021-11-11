@@ -251,6 +251,7 @@ function insert_last_doc_id()
       onSubmit="javascript:return validateForm(this,js_attr_cfg,{$gui->req_cfg->expected_coverage_management});">
 
 	<input type="hidden" name="req_spec_id" value="{$gui->req_spec_id}" />
+	<input type="hidden" name="tproject_id" value="{$gui->tproject_id}" />
 	<input type="hidden" name="requirement_id" value="{$gui->req_id}" />
 	<input type="hidden" name="req_version_id" value="{$gui->req_version_id}" />
 	<input type="hidden" name="last_doc_id" id="last_doc_id" value="{$gui->last_doc_id|escape}" />

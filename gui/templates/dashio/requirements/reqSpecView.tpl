@@ -17,9 +17,10 @@ Purpose: view a requirement specification
 {$buttons_template=$smarty.template|replace:"$bn":"inc_btn_$bn"}
 
 {$reqSpecID=$gui->req_spec_id}
+{$reqProjectID=$gui->tproject_id}
 {$req_module='lib/requirements/'}
 {$url_args="reqEdit.php?doAction=create&req_spec_id="}
-{$req_edit_url="$basehref$req_module$url_args$reqSpecID"}
+{$req_edit_url="$basehref$req_module$url_args$reqSpecID&tproject_id=$reqProjectID"}
 
 {$url_args="reqImport.php?req_spec_id="}
 {$req_import_url="$basehref$req_module$url_args$reqSpecID"}

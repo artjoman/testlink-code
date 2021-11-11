@@ -261,7 +261,7 @@ class reqCommands {
       } 
       else 
       {
-        $obj->template = "reqView.php?refreshTree={$argsObj->refreshTree}&requirement_id={$ret['id']}";
+        $obj->template = "reqView.php?refreshTree={$argsObj->refreshTree}&requirement_id={$ret['id']}&tproject_id={$argsObj->tproject_id}";
       }
       $obj->req_id = $ret['id'];
       $argsObj->scope = '';
@@ -351,7 +351,7 @@ class reqCommands {
       {
         $obj->main_descr = '';
         $obj->action_descr = '';
-        $obj->template = "reqView.php?refreshTree={$argsObj->refreshTree}&requirement_id={$argsObj->req_id}";
+        $obj->template = "reqView.php?refreshTree={$argsObj->refreshTree}&requirement_id={$argsObj->req_id}&tproject_id={$argsObj->tproject_id}";
 
         $this->reqMgr->values_to_db($request,$argsObj->req_version_id,$cf_map);
 
@@ -611,7 +611,7 @@ class reqCommands {
     $ret = $this->reqMgr->create_new_version($argsObj->req_id,$argsObj->user_id,$opt);
     $obj = $this->initGuiBean();
     $obj->user_feedback = $ret['msg'];
-    $obj->template = "reqView.php?requirement_id={$argsObj->req_id}";
+    $obj->template = "reqView.php?requirement_id={$argsObj->req_id}&tproject_id={$argsObj->tproject_id}";
     $obj->req = null;
     $obj->req_id = $argsObj->req_id;
     return $obj;  
@@ -780,7 +780,7 @@ class reqCommands {
     
     $obj = $this->initGuiBean();
     $obj->user_feedback = $ret['msg'];
-         $obj->template = "reqView.php?requirement_id={$argsObj->req_id}";
+         $obj->template = "reqView.php?requirement_id={$argsObj->req_id}&tproject_id={$argsObj->tproject_id}";
         $obj->req = null;
     $obj->req_id = $argsObj->req_id;
     return $obj;  
@@ -891,7 +891,7 @@ class reqCommands {
     $obj->req = $req_version;
     $obj->req_spec_id = $argsObj->req_spec_id;
     $obj->req_version_id = $argsObj->req_version_id;
-    $obj->template = "reqView.php?refreshTree=0&requirement_id={$argsObj->req_id}";
+    $obj->template = "reqView.php?refreshTree=0&requirement_id={$argsObj->req_id}&tproject_id={$argsObj->tproject_id}";
 
     // Analise test case identity
     $tcaseCfg = config_get('testcase_cfg');
@@ -968,7 +968,7 @@ class reqCommands {
     $obj->req = $req_version;
     $obj->req_spec_id = $argsObj->req_spec_id;
     $obj->req_version_id = $argsObj->req_version_id;
-    $obj->template = "reqView.php?refreshTree=0&requirement_id={$argsObj->req_id}";
+    $obj->template = "reqView.php?refreshTree=0&requirement_id={$argsObj->req_id}&tproject_id={$argsObj->tproject_id}";
     return $obj;
   }
 
@@ -1008,7 +1008,7 @@ class reqCommands {
     $guiObj->action_descr = '';
     $guiObj->req_id = $argsObj->req_id;
     $guiObj->suggest_revision = $guiObj->prompt_for_log = false;
-    $guiObj->template = "reqView.php?refreshTree=0&requirement_id={$argsObj->req_id}";
+    $guiObj->template = "reqView.php?refreshTree=0&requirement_id={$argsObj->req_id}&tproject_id={$argsObj->tproject_id}";
 
     $guiObj->uploadOp = $argsObj->uploadOp;
     return $guiObj;    

@@ -51,7 +51,8 @@ switch($args->featureType) {
   	$gui->roles_updated = $lbl["test_project_user_roles_updated"];
   	$gui->not_for_you = $lbl["testproject_roles_assign_disabled"];
   	$gui->main_title = $lbl["assign_tproject_roles"];
-
+    $gui->tproject_id = $args->testprojectID;
+    
     $assignRolesFor = $args->featureType;
   	$target->testprojectID = $args->featureID > 0 ? $args->featureID : null;
   	$featureMgr = &$tprojectMgr;
@@ -62,6 +63,7 @@ switch($args->featureType) {
   	$gui->roles_updated = lang_get("test_plan_user_roles_updated");
   	$gui->not_for_you = lang_get("testplan_roles_assign_disabled");
     $gui->main_title = $lbl["assign_tplan_roles"];
+    $gui->tproject_id = $args->testprojectID;
 
   	$assignRolesFor = $args->featureType;
   	$target->testprojectID = $args->testprojectID;
