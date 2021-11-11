@@ -495,7 +495,7 @@ class RestApi
     // Test Project Right
     // Default Right
     $item = json_decode($request->getBody());
-    if( null == $item ) {
+    if( null === $item ) {
       $this->byeHTTP500(__METHOD__);  // No return from it
     }
 
@@ -520,7 +520,7 @@ class RestApi
         $tplan_id = intval($item->testplan);
         $tplan = $this->tplanMgr->get_by_id($tplan_id);
 
-        if( null == $tplan ) {
+        if( null === $tplan ) {
           $statusOK = false;
           $op['details'][] = 
             sprintf($this->l10n['API_TESTPLAN_ID_DOES_NOT_EXIST'],
@@ -532,7 +532,7 @@ class RestApi
       } else {
         $tplanAPIKey = trim($item->testplan);
         $tplan = $this->tplanMgr->getByAPIKey( $tplanAPIKey );
-        if( null == $tplan ) {
+        if( null === $tplan ) {
           $statusOK = false;
           $op['details'][] = 
             sprintf($this->l10n['API_TESTPLAN_APIKEY_DOES_NOT_EXIST'],$item->testplan);
@@ -658,7 +658,7 @@ class RestApi
     // Test Project Right
     // Default Right
     $item = json_decode($request->getBody());
-    if( null == $item ) {
+    if( null === $item ) {
       $this->byeHTTP500(__METHOD__);  // No return from it
     }
 
@@ -673,7 +673,7 @@ class RestApi
     if( $statusOK ) {
       $build = $this->buildMgr->get_by_id($id);      
       
-      if( null == $build ) {
+      if( null === $build ) {
         $statusOK = false;
         $op['message'] = 
           sprintf($this->l10n['API_INVALID_BUILDID'],$id);
@@ -983,7 +983,7 @@ class RestApi
 
       $op = array('status' => 'ok', 'message' => 'ok');
       $statusOK = true;  
-      if (null == $plat2link || !is_array($plat2link)) {
+      if (null === $plat2link || !is_array($plat2link)) {
         $statusOK = false;
         $op['status'] = 'ko';
         $op['message'] = 'Bad Body';
@@ -1117,7 +1117,7 @@ class RestApi
       $body = str_replace("\n", '', $request->getBody());
       $item = json_decode($body);
 
-      if (null == $item) {
+      if (null === $item) {
         $this->byeHTTP500(__METHOD__);
       }
 
@@ -1178,7 +1178,7 @@ class RestApi
       $bigString = implode("",$ba);
       $bigString = trim($bigString,'",');
       $item = json_decode($bigString);
-      if( null == $item ) {
+      if( null === $item ) {
         $this->byeHTTP500(__METHOD__);
       }
 
@@ -1192,7 +1192,7 @@ class RestApi
       // create obj with standard properties
       $pfx = $item->testProject->prefix;
       $pid = $this->tprojectMgr->get_by_prefix((string)$pfx);
-      if( null == $pid ) {
+      if( null === $pid ) {
           $op['status'] = 'ko';
           $op['message'] = "Can't get test project ID";
       } else {
@@ -1599,7 +1599,7 @@ class RestApi
   function byeHTTP500($msg=null) 
   {
     $op = array();
-    if( null == $msg ) {
+    if( null === $msg ) {
       $msg = 'TestLink Fatal Error - Malformed Request Body - ' .
              ' json_decode() issue';
     }

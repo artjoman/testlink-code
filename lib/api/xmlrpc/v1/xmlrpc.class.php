@@ -540,7 +540,7 @@ class TestlinkXMLRPCServer extends IXR_Server {
             $tplanid = $this->dbObj->prepare_int( $this->args[self::$testPlanIDParamName] );
             $query = "SELECT id FROM {$this->tables['testplans']} WHERE id={$tplanid}";
             $result = $this->dbObj->fetchFirstRowSingleColumn( $query, "id" );
-            if(null == $result) {
+            if(null === $result) {
                 $msg = $messagePrefix . sprintf( INVALID_TPLANID_STR, $tplanid );
                 $this->errors[] = new IXR_Error( INVALID_TPLANID, $msg );
                 $status = false;
@@ -574,7 +574,7 @@ class TestlinkXMLRPCServer extends IXR_Server {
             $testprojectid = $this->dbObj->prepare_int( $this->args[self::$testProjectIDParamName] );
             $query = "SELECT id FROM {$this->tables['testprojects']} WHERE id={$testprojectid}";
             $result = $this->dbObj->fetchFirstRowSingleColumn( $query, "id" );
-            if(null == $result) {
+            if(null === $result) {
                 $msg = $messagePrefix . sprintf( INVALID_TESTPROJECTID_STR, $testprojectid );
                 $this->errors[] = new IXR_Error( INVALID_TESTPROJECTID, $msg );
                 $status = false;
@@ -995,7 +995,7 @@ class TestlinkXMLRPCServer extends IXR_Server {
      * @access protected
      */
     protected function _isDevKeyValid($devKey) {
-        if(null == $devKey || "" == $devKey) {
+        if(null === $devKey || "" == $devKey) {
             return false;
         } else {
             $this->userID = null;
@@ -1003,7 +1003,7 @@ class TestlinkXMLRPCServer extends IXR_Server {
             $query = "SELECT id FROM {$this->tables['users']} WHERE script_key='{$this->devKey}'";
             $this->userID = $this->dbObj->fetchFirstRowSingleColumn( $query, "id" );
 
-            if(null == $this->userID) {
+            if(null === $this->userID) {
                 return false;
             } else {
                 return true;
@@ -5154,7 +5154,7 @@ class TestlinkXMLRPCServer extends IXR_Server {
             $result = $this->dbObj->fetchFirstRowSingleColumn( $query, "id" );
         }
 
-        if(null == $result) {
+        if(null === $result) {
             $msg = $msg_prefix . sprintf( ATTACH_INVALID_FK_STR, $fkId, $fkTable );
             $this->errors[] = new IXR_ERROR( ATTACH_INVALID_FK, $msg );
             $statusOK = false;

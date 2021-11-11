@@ -324,7 +324,7 @@ function init_args(&$dbHandler) {
   }
 
   $tproject_mgr = new testproject($dbHandler);
-  if ( null == $tplan_mgr ) {
+  if ( null === $tplan_mgr ) {
     $tplan_mgr = new testplan($dbHandler);
   }
 

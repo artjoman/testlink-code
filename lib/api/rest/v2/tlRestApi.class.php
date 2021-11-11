@@ -767,7 +767,7 @@ class tlRestApi
     // Default Right
     $request = $this->app->request();
     $item = json_decode($request->getBody());
-    if( null == $item ) {
+    if( null === $item ) {
       $this->byeHTTP500();
     }
 
@@ -792,7 +792,7 @@ class tlRestApi
         $tplan_id = intval($item->testplan);
         $tplan = $this->tplanMgr->get_by_id( $tplan_id );
 
-        if( null == $tplan ) {
+        if( null === $tplan ) {
           $statusOK = false;
           $op['details'][] = 
             sprintf($this->l10n['API_TESTPLAN_ID_DOES_NOT_EXIST'],$item->testplan);
@@ -801,7 +801,7 @@ class tlRestApi
       } else {
         $tplanAPIKey = trim($item->testplan);
         $tplan = $this->tplanMgr->getByAPIKey( $tplanAPIKey );
-        if( null == $tplan ) {
+        if( null === $tplan ) {
           $statusOK = false;
           $op['details'][] = 
             sprintf($this->l10n['API_TESTPLAN_APIKEY_DOES_NOT_EXIST'],$item->testplan);
@@ -1147,7 +1147,7 @@ class tlRestApi
       // create obj with standard properties
       $pfx = $item->testProject->prefix;
       $pid = $this->tprojectMgr->get_by_prefix((string)$pfx);
-      if( null == $pid ) {
+      if( null === $pid ) {
           $op['status'] = 'ko';
           $op['message'] = "Can't get test project ID";
       } else {
@@ -1224,7 +1224,7 @@ class tlRestApi
     // Default Right
     $request = $this->app->request();
     $item = json_decode($request->getBody());
-    if( null == $item ) {
+    if( null === $item ) {
       $this->byeHTTP500();
     }
 
@@ -1239,7 +1239,7 @@ class tlRestApi
     if( $statusOK ) {
       $build = $this->buildMgr->get_by_id( $id );      
       
-      if( null == $build ) {
+      if( null === $build ) {
         $statusOK = false;
         $op['message'] = 
           sprintf($this->l10n['API_INVALID_BUILDID'],$id);
@@ -1396,7 +1396,7 @@ class tlRestApi
 
       $op = array('status' => 'ok', 'message' => 'ok');
       $statusOK = true;  
-      if (null == $plat2link || !is_array($plat2link)) {
+      if (null === $plat2link || !is_array($plat2link)) {
         $statusOK = false;
         $op['status'] = 'ko';
         $op['message'] = 'Bad Body';
@@ -1498,7 +1498,7 @@ class tlRestApi
    */
   function byeHTTP500($msg=null) {
     $op = array();
-    if( null == $msg ) {
+    if( null === $msg ) {
       $msg = 'TestLink Fatal Error - Malformed Request Body - ' .
              ' json_decode() issue';
     }

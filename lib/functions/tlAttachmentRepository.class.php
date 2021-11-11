@@ -128,7 +128,7 @@ class tlAttachmentRepository extends tlObjectWithDB
     $fSize = isset($fInfo['size']) ? $fInfo['size'] : 0;
     $fTmpName = isset($fInfo['tmp_name']) ? $fInfo['tmp_name'] : '';
 
-    if (null == $fName || '' == $fType || 0 == $fSize) {
+    if (null === $fName || '' == $fType || 0 == $fSize) {
       $op->statusCode = 'fNameORfTypeOrfSize';
       return $op;
     }

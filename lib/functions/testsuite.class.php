@@ -1925,7 +1925,7 @@ class testsuite extends tlObjectWithAttachments
 
     // CRITIC
     $tproject_id = $my['opt']['tproject_id'];
-    if( null == $tproject_id ) {
+    if( null === $tproject_id ) {
       $root = $this->getTestProjectFromTestSuite($tsuiteID,null);
     }
     $tproject_id = intval($tproject_id);
@@ -2007,7 +2007,7 @@ class testsuite extends tlObjectWithAttachments
     $kwForTS = $this->getKeywordsForTSSet($tsSet);
 
     $vv = array();
-    if( null == $kwForTS ) {
+    if( null === $kwForTS ) {
       // we can add all
       foreach($tsSet as $id) {
         foreach($kwSet as $kaboom) {

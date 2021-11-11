@@ -3453,7 +3453,7 @@ class testcase extends tlObjectWithAttachments {
   */
   function setKeywords($id,$version_id,$kw_ids,$audit = self::AUDIT_ON) {
 
-    if( null == $version_id) {
+    if( null === $version_id) {
 
     }
 
@@ -9007,7 +9007,7 @@ class testcase extends tlObjectWithAttachments {
 
     // CRITIC
     $tproject_id = $my['opt']['tproject_id'];
-    if( null == $tproject_id ) {
+    if( null === $tproject_id ) {
       $tproject_id = $this->get_testproject($safe['tcase_id']);
     }
     $tproject_id = intval($tproject_id);
@@ -9373,7 +9373,7 @@ class testcase extends tlObjectWithAttachments {
 
     // CRITIC
     $tproject_id = $my['opt']['tproject_id'];
-    if( null == $tproject_id ) {
+    if( null === $tproject_id ) {
       $tproject_id = $this->get_testproject($safe['tcase_id']);
     }
     $tproject_id = intval($tproject_id);
@@ -9725,7 +9725,7 @@ class testcase extends tlObjectWithAttachments {
 
     // CRITIC
     $tproject_id = $my['opt']['tproject_id'];
-    if( null == $tproject_id ) {
+    if( null === $tproject_id ) {
       $tproject_id = $this->get_testproject($safe['tcase_id']);
     }
     $tproject_id = intval($tproject_id);
@@ -10045,7 +10045,7 @@ class testcase extends tlObjectWithAttachments {
       }
       $ufoCrew[$ik]['blob'] = $oCache[$code];
       $houstonWeHaveAProblem = false;
-      if (null == $ufoCrew[$ik]['blob']) {
+      if (null === $ufoCrew[$ik]['blob']) {
         $houstonWeHaveAProblem = true;
         $ufoCrew[$ik]['blob'] = new stdClass();
         $ufoCrew[$ik]['blob']->summaryHTMLString = $ohnooo;

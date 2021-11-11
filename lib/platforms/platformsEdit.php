@@ -116,7 +116,7 @@ function init_args( &$dbH )
           "enable_on_design" => array(tlInputParameter::CB_BOOL));
     
   R_PARAMS($iParams,$args);
-  if (null == $args->platform_id || $args->platform_id <= 0) {
+  if (null === $args->platform_id || $args->platform_id <= 0) {
     $args->platform_id = $args->id;
   }
 
@@ -148,11 +148,11 @@ function init_args( &$dbH )
 
   $args->currentUser = $_SESSION['currentUser'];
   
-  if (null == $args->enable_on_design) {
+  if (null === $args->enable_on_design) {
     $args->enable_on_design = 0;
   }
 
-  if (null == $args->enable_on_execution) {
+  if (null === $args->enable_on_execution) {
     $args->enable_on_execution = 0;
   }
   return $args;

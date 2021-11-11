@@ -21,7 +21,7 @@ testlinkInitPage($db,'init_project' == 'dont_init_project',
                      'doNotCheckSession' == 'doNotCheckSession');
 
 list($tplan_mgr,$args) = initArgsForReports($db);
-if( null == $tplan_mgr ) {
+if( null === $tplan_mgr ) {
   $tplan_mgr = new testplan($db);
 }
 

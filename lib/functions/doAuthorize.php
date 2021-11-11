@@ -31,7 +31,7 @@ function doAuthorize(&$db,$login,$pwd,$options=null) {
   $result = array('status' => tl::ERROR, 'msg' => null);
   $_SESSION['locale'] = TL_DEFAULT_LOCALE; 
 
-  if( null == $options ) {
+  if( null === $options ) {
     $options = new stdClass();   
     $options->doSessionExistsCheck = true;
     $options->auth = null;

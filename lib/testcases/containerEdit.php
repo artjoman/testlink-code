@@ -473,7 +473,7 @@ function init_args(&$dbHandler,&$tprojectMgr,&$tsuiteMgr)
                    intval($_REQUEST[$prop]) : null;    
   }
 
-  if (null == $args->containerID) {
+  if (null === $args->containerID) {
     $args->containerID = $args->objectID;
   }
 
@@ -498,7 +498,7 @@ function init_args(&$dbHandler,&$tprojectMgr,&$tsuiteMgr)
       $args->containerType;
   }
 
-  if( null == $args->containerType ) {
+  if( null === $args->containerType ) {
     throw new Exception("Error No Container Type", 1);    
   }
 
@@ -1342,7 +1342,7 @@ function initializeGui(&$objMgr,$id,$argsObj,$lbl=null) {
   list($add2args,$guiObj) = initUserEnv($objMgr->db,$argsObj);
 
   $labels = $lbl;
-  if( null == $labels ) {
+  if( null === $labels ) {
     $labels = $argsObj->l10n;
   }
 
@@ -1441,7 +1441,7 @@ function initTPLActions() {
  *
  */
 function showTestSuite(&$tplEngine,&$argsO,&$tsuiteMgr,$tplDir) {
-  if( null == $argsO->tproject_id ) {
+  if( null === $argsO->tproject_id ) {
     $argsO->tproject_id = $tsuiteMgr->getTestproject($argsO->item_id); 
   }
   $gui = initializeGui($tsuiteMgr,$argsO->item_id,$argsO,$argsO->l10n);

@@ -173,7 +173,7 @@ class testplan extends tlObjectWithAttachments
         $pinfo = $this->tproject_mgr->get_by_id(intval($item->testProjectID));
       }
       
-      if( null == $pinfo || count($pinfo) == 0 ) {
+      if( null === $pinfo || count($pinfo) == 0 ) {
         $pinfo = $this->tproject_mgr->get_by_prefix($item->testProjectID);            
       }
       
@@ -4301,7 +4301,7 @@ class testplan extends tlObjectWithAttachments
     $sql .= " ORDER BY node_order,id";
     
     $rs = $this->db->fetchRowsIntoMap($sql,'id');
-    if( null == $rs || count($rs) == 0 ) {
+    if( null === $rs || count($rs) == 0 ) {
       return $qnum;
     }
   

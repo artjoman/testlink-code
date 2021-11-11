@@ -270,7 +270,7 @@ class tlPlatform extends tlObjectWithDB
     $filterEnableOn = "";
     $enaSet = array('enable_on_design','enable_on_execution');
     foreach ($enaSet as $ena) {
-      if (null == $options[$ena]) {
+      if (null === $options[$ena]) {
         continue;
       }
       if (is_bool($options[$ena]) || is_int($options[$ena])) {

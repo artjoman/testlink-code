@@ -31,7 +31,7 @@ require_once('exec.inc.php'); // used for bug string lookup
 $tplCfg = templateConfiguration();
 
 list($tplan_mgr,$args) = initArgsForReports($db);
-if( null == $tplan_mgr ) {
+if( null === $tplan_mgr ) {
   $tplan_mgr = new testplan($db);
 }
 $tcase_mgr = new testcase($db);

@@ -19,7 +19,7 @@ function require(path, parent, orig) {
   var resolved = require.resolve(path);
 
   // lookup failed
-  if (null == resolved) {
+  if (null === resolved) {
     orig = orig || path;
     parent = parent || 'root';
     var err = new Error('Failed to require "' + orig + '" from "' + parent + '"');

@@ -134,7 +134,7 @@ function init_global_rights_maps()
           "delete_frozen_tcversion" => null);
 
   foreach( $g_rights_mgttc as $tr => $lbl ) {
-    if( null == $lbl ) {
+    if( null === $lbl ) {
       $g_rights_mgttc[$tr] = $l18n['right_' . $tr];
     }
   }

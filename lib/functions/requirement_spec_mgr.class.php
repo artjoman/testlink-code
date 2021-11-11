@@ -2580,7 +2580,7 @@ function get_requirement_child_by_id_req($id){
 
     // 
     $ltcv = null;
-    if( null == $tcase_id ) {
+    if( null === $tcase_id ) {
       $tcversionJoin =  
         " JOIN {$this->views['latest_tcase_version_id']} LTCV " .
         " ON LTCV.tcversion_id = RCOV.tcversion_id ";
@@ -2674,7 +2674,7 @@ function get_requirement_child_by_id_req($id){
 
     // 
     $ltcv = null;
-    if( null == $tcase_id ) {
+    if( null === $tcase_id ) {
       $tcversionJoin =  
         " LEFT JOIN {$this->views['latest_tcase_version_id']} LTCV " .
         " ON LTCV.tcversion_id = RCOV.tcversion_id ";

@@ -444,7 +444,7 @@ function readline(StreamInterface $stream, $maxLength = null)
 
     while (!$stream->eof()) {
         // Using a loose equality here to match on '' and false.
-        if (null == ($byte = $stream->read(1))) {
+        if (null === ($byte = $stream->read(1))) {
             return $buffer;
         }
         $buffer .= $byte;

@@ -3808,7 +3808,7 @@ function getPublicAttr($id)
            " FROM {$this->object_table} testprojects " .
            " WHERE testprojects.id = " . intval($id);
     $rs = $this->db->get_recordset($sql);  
-    if (null == $rs || count($rs) <=0) {
+    if (null === $rs || count($rs) <=0) {
       return (object)[];
     }
     return unserialize($rs[0]['options']);       

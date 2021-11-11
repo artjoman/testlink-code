@@ -514,7 +514,7 @@ function check_string($str2check, $regexp_forbidden_chars)
  * @internal Revisions
  */
 function config_get($config_id, $default=null) {
-  $t_value = (null == $default) ? '' : $default;  
+  $t_value = (null === $default) ? '' : $default;  
   $t_found = false;  
   $logInfo = array('msg' => "config option not available: {$config_id}", 'level' => 'WARNING');
   if(!$t_found) {
@@ -715,7 +715,7 @@ function getFileUploadErrorMessage($fInfo,$tlInfo=null)
     }
   }
 
-  if (null == $msg && null != $tlInfo && $tlInfo->statusOK == false) {
+  if (null === $msg && null != $tlInfo && $tlInfo->statusOK == false) {
     $msg = lang_get('FILE_UPLOAD_' . $tlInfo->statusCode);
   }
   return $msg;

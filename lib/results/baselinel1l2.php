@@ -18,7 +18,7 @@ $timerOn = microtime(true);
 $tplCfg = templateConfiguration();
 
 list($tplan_mgr,$args) = initArgsForReports($db);
-if( null == $tplan_mgr ) {
+if( null === $tplan_mgr ) {
   $tplan_mgr = new testplan($db);
 }
 

@@ -102,7 +102,7 @@ function initArgs() {
       $args->reqURI = null; 
     }
   }
-  if (null == $args->reqURI) {
+  if (null === $args->reqURI) {
     $args->reqURI = 'lib/general/mainPage.php';
   }
   $args->reqURI = $_SESSION['basehref'] . $args->reqURI;

@@ -1132,7 +1132,7 @@ class tlUser extends tlDBObject {
   static public function getByIDs(&$db,$ids,$detailLevel = self::TLOBJ_O_GET_DETAIL_FULL) {
     $users = null;
  
-    if( null == $ids ) {
+    if( null === $ids ) {
       return null;
     }
 

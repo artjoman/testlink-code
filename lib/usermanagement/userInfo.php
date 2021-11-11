@@ -76,7 +76,7 @@ if ($op->status != tl::OK && empty($op->user_feedback)) {
 $user->readFromDB($db);
 
 // set a string if not generated key yet
-if (null == $user->userApiKey) {
+if (null === $user->userApiKey) {
   $user->userApiKey = TLS('none');
 }
 
