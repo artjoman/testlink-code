@@ -86,6 +86,7 @@ TestLink Open Source Project - http://testlink.sourceforge.net/
           action="{$managerURL}">
 
       <input type="hidden" name="show_mode" value="{$gui->show_mode}" />
+      <input type="hidden" name="tproject_id" value="{$gui->tproject_id}" />
       <input type="hidden" name="tplan_id" value="{$gui->tplan_id}" />      
       <input type="hidden" name="doAction" id="doAction" value="setEstimatedExecDuration">
       <input type="hidden" name="testcase_id" value="{$args_testcase.testcase_id}" />

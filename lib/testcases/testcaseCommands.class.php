@@ -1146,6 +1146,7 @@ class testcaseCommands {
     $guiObj->user_feedback = '';
     $guiObj->step_exec_type = $argsObj->exec_type;
     $guiObj->tcversion_id = $argsObj->tcversion_id;
+    $guiObj->tproject_id = $argsObj->tproject_id;
 
     $this->initTestCaseBasicInfo($argsObj,$guiObj);
 
@@ -1156,6 +1157,7 @@ class testcaseCommands {
     $guiObj->template = 
       "archiveData.php?version_id={$guiObj->tcversion_id}&" . 
       "tcversion_id={$guiObj->tcversion_id}&" .
+      "tproject_id={$guiObj->tproject_id}&" .
       "edit=testcase&id={$guiObj->tcase_id}&show_mode={$guiObj->show_mode}";
 
     if( property_exists($guiObj, 'tplan_id') ) {
