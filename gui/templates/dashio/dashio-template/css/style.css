@@ -3506,3 +3506,8 @@ ul.chat-available-user li a:hover {
 #copyrights a {
   color: #fff;
 }
+
+
+table.simple ul li {
+    list-style: unset;
+}
