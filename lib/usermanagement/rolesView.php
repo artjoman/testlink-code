@@ -78,7 +78,8 @@ function init_args()
   $iParams = array("roleid" => array(tlInputParameter::INT_N),
                    "csrfid" => array(tlInputParameter::STRING_N,0,30),
                    "csrftoken" => array(tlInputParameter::STRING_N,0,128),
-                   "doAction" => array(tlInputParameter::STRING_N,0,15));
+                   "doAction" => array(tlInputParameter::STRING_N,0,15),
+                   "tproject_id" => array(tlInputParameter::INT_N));
 
   $args = new stdClass();
   $pParams = R_PARAMS($iParams,$args);
@@ -93,6 +94,7 @@ function init_args()
 function initializeGui(&$db,&$args)
 {
   $gui = new stdClass();
+  $gui->tproject_id = $args->tproject_id;
   $gui->highlight = initialize_tabsmenu();
   $gui->highlight->view_roles = 1;
   $gui->grants = getGrantsForUserMgmt($db,$args->currentUser);
@@ -102,7 +104,7 @@ function initializeGui(&$db,&$args)
   $gui->role_id_replacement = config_get('role_replace_for_deleted_roles');
   $cfg = getWebEditorCfg('role');
   $gui->editorType = $cfg['type'];
-  
+
   return $gui;
 }
 

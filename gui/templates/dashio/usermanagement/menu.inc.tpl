@@ -31,20 +31,20 @@ include to generate menu when managing users and roles
   <ul class="nav nav-pills">
 
     {if $gui->grants->user_mgmt == "yes"}
-	    <li {$act['view_users']['class']} ><a href="{$act['view_users']['url']}">{$menuLbl.menu_view_users}</a></li>
-	  {/if}
-
-    {if $gui->grants->role_mgmt == "yes"}    
-      <li {$act['view_roles']['class']} ><a href="{$act['view_roles']['url']}{$tproject_id}">{$menuLbl.menu_view_roles}</a></li>
+      <li {$act['view_users']['class']} ><a href="{$act['view_users']['url']}">{$menuLbl.menu_view_users}</a></li>
     {/if}
+    {if $tproject_id > 0}
+      {if $gui->grants->role_mgmt == "yes"}    
+        <li {$act['view_roles']['class']} ><a href="{$act['view_roles']['url']}{$tproject_id}">{$menuLbl.menu_view_roles}</a></li>
+      {/if}
 
-    {if $gui->grants->tproject_user_role_assignment == "yes"}
-      <li {$act['assign_users_tproject']['class']} ><a href="{$act['assign_users_tproject']['url']}{$tproject_id}">{$menuLbl.menu_assign_testproject_roles}</a></li>
+      {if $gui->grants->tproject_user_role_assignment == "yes"}
+        <li {$act['assign_users_tproject']['class']} ><a href="{$act['assign_users_tproject']['url']}{$tproject_id}">{$menuLbl.menu_assign_testproject_roles}</a></li>
+      {/if}
+
+      {if $gui->grants->tplan_user_role_assignment == "yes"}
+        <li {$act['assign_users_tplan']['class']} ><a href="{$act['assign_users_tplan']['url']}{$tproject_id}">{$menuLbl.menu_assign_testplan_roles}</a></li>
+      {/if}
     {/if}
-
-    {if $gui->grants->tplan_user_role_assignment == "yes"}
-      <li {$act['assign_users_tplan']['class']} ><a href="{$act['assign_users_tplan']['url']}{$tproject_id}">{$menuLbl.menu_assign_testplan_roles}</a></li>
-    {/if}
-
   </ul>  
 </div>
