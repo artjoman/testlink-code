@@ -31,7 +31,7 @@ include to generate menu when managing users and roles
   <ul class="nav nav-pills">
 
     {if $gui->grants->user_mgmt == "yes"}
-	    <li {$act['view_users']['class']} ><a href="{$act['view_users']['url']}{$tproject_id}">{$menuLbl.menu_view_users}</a></li>
+	    <li {$act['view_users']['class']} ><a href="{$act['view_users']['url']}">{$menuLbl.menu_view_users}</a></li>
 	  {/if}
 
     {if $gui->grants->role_mgmt == "yes"}    
